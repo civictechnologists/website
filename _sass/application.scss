@@ -1,0 +1,11 @@
+//// Font Awesome
+$fa-font-path: "../fonts/fontawesome";
+
+@import "fonts";
+@import "theme";
+@import "vendor/bootstrap/bootstrap";
+@import "posts";
+
+.container {
+  max-width: 55em;
+}
