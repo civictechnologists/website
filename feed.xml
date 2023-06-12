@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alliance for Civic Technologists</title>
+    <description>ACT is a decentralized network of civic tech volunteer organizations.</description>
+    <link>https://www.civictechnologists.github.io/</link>
+    <atom:link href="https://www.civictechnologists.github.io/website/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 12 Jun 2023 23:13:56 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Jun 2023 23:13:56 +0000</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      
+      <item>
+        <title>ACT June Newsletter</title>
+        <description>&lt;p&gt;Hello! Welcome to our first newsletter! It’s been a month since we first launched the Alliance of Civic Technologists and we wanted to give an update on our progress and what’s next.&lt;/p&gt;
+
+&lt;p&gt;But first we wanted to give a big thank you to our initial volunteers and donors. Our launch would not have been possible without people raising their hands to help us stand up the network! Thank you! 🎉&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Our First ACT Meeting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re giving former Brigades and interested local civic tech organizations until Friday, June 16th to sign their letters of intent and name their delegates. On Monday, June 19th we’ll send out a pool asking delegates to indicate their availability for our first meeting. If you are a local leader and haven’t received your letter of intent, please email &lt;a href=&quot;mailto:hello@civictechnologists.org&quot;&gt;hello@civictechnologists.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New Logo!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’ve visited our website, &lt;a href=&quot;https://civictechnologists.org&quot;&gt;civictechnologists.org&lt;/a&gt;, in the last week, you may have noticed that we have a new logo! The connected star logo was inspired by Code for Australia’s original ‘network’ design with ACT taking a page out of Canada’s book and using the flag star to represent the US. Our colors are Old Glory Red and Democracy Blue. We wanted to give a big shout out to Molly McLeod (&lt;a href=&quot;https://www.mollymcleod.com/&quot;&gt;https://www.mollymcleod.com/&lt;/a&gt;) for the design.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Call for Feedback on our Vision, Mission and Values&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2017, the Code for America Brigades came together at Brigade Congress and drafted a Mission/Vision/Operating Principles document that reflected the values of the Brigade network. Since that time, Code for America has taken the finalized document off their website. However, this document was preserved in Github and ACT has forked it as it’s a useful starting point for setting our own vision, mission, and values. You can comment and suggest changes &lt;a href=&quot;https://docs.google.com/document/d/1h-cNQtJrMZi3yaohQIJPMbxh4lnKzUQtI_Vm0ptBExA/edit&quot;&gt;here&lt;/a&gt;. We’ll keep the comment section open until we formally adopt our governance structure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stay in touch via Discord&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in chatting with the community in real time, we have an open discord server at &lt;a href=&quot;https://discord.gg/kFsUUfsra6&quot;&gt;https://discord.gg/kFsUUfsra6&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks so much,&lt;br /&gt;
+The ACT Comms Team&lt;br /&gt;
+(Christopher, Brianda, Ben and Jill)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at&lt;/em&gt; &lt;a href=&quot;mailto:hello@civictechnologists.org&quot;&gt;&lt;em&gt;hello@civictechnologists.org&lt;/em&gt;&lt;/a&gt;_&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Jun 2023 14:30:00 +0000</pubDate>
+        <link>https://www.civictechnologists.github.io/website/2023/06/act-june-newsletter</link>
+        <guid isPermaLink="true">https://www.civictechnologists.github.io/website/2023/06/act-june-newsletter</guid>
+      </item>
+    
+  </channel>
+</rss>
