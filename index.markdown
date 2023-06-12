@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-  <img src="/assets/images/logo.png" alt="" class="img-fluid" />
+  <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="" class="img-fluid" />
   <h1 class="visually-hidden">Alliance of Civic Technologists</h1>
   <h2 class="text-secondary mb-3">We are thrilled to announce the formation of the Alliance of Civic Technologists (ACT).</h2>
 
@@ -11,7 +11,7 @@ layout: default
       {% for post in site.posts limit:1 %}
         <div class="card card-body bg-light mb-3">
             <p class="mb-0"><strong>🎉 Latest Update ({{ post.date | date: "%B %-d, %Y" }})</strong>:
-            <a href="/news">{{ post.title }}</a></p>
+            <a href="{{ "/news" | relative_url }}">{{ post.title }}</a></p>
         </div>
       {% endfor %}
   {% endif %}
