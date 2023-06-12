@@ -1,16 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Barlow Condensed";
-  src: url("/assets/fonts/BarlowCondensed-Bold-webfont.woff") format("woff"), url("/assets/fonts/BarlowCondensed-Bold-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Barlow Medium";
-  src: url("/assets/fonts/Barlow-Medium-webfont.woff") format("woff"), url("/assets/fonts/Barlow-Medium-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11932,6 +11920,19 @@ textarea.form-control-lg {
 
 .container {
   max-width: 55em;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/website/assets/fonts/BarlowCondensed-Bold-webfont.woff") format("woff"), url("/website/assets/fonts/BarlowCondensed-Bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Medium";
+  src: url(/website/assets/fonts/Barlow-Medium-webfont.woff) format("woff"), url(/website/assets/fonts/Barlow-Medium-webfont.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=main.css.map */
