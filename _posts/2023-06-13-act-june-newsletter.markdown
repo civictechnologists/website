@@ -21,10 +21,10 @@ In 2017, the Code for America Brigades came together at Brigade Congress and dra
 
 **Stay in touch via Discord**
 
-If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/kFsUUfsra6>.
+If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/rBZZugJUC8>
 
 Thanks so much,<br>
 The ACT Comms Team<br>
 (Christopher, Brianda, Ben and Jill)
 
-_Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at_ [_hello@civictechnologists.org_](mailto:hello@civictechnologists.org)_
+_Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at [hello@civictechnologists.org](mailto:hello@civictechnologists.org)_
