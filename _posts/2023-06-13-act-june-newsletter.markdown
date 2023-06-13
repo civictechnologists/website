@@ -1,6 +1,6 @@
 ---
-title:  "ACT June Newsletter"
-date:   2023-06-12 07:30:00 -0700
+title: ACT June Newsletter
+date: 2023-06-13 0:00:00 -0400
 ---
 
 Hello! Welcome to our first newsletter! It’s been a month since we first launched the Alliance of Civic Technologists and we wanted to give an update on our progress and what’s next.
