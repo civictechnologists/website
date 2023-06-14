@@ -7,3 +7,13 @@
     max-width: 100%;
   }
 }
+
+.post + .post {
+  margin-top: 1.5rem;
+  @extend .border-top;
+  padding-top: 1.5rem;
+}
+
+.page-nav-link {
+  font-size: 0.9rem;
+}
