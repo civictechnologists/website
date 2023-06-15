@@ -13,13 +13,26 @@ $fa-font-path: "../fonts/fontawesome";
   color: $body-color;
   text-transform: uppercase;
   border-bottom: 4px solid $body-color;
+  margin-bottom: 0.75rem;
+
   /* Give room for icons next to the title */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.75rem;
 
   .page-title {
     margin-bottom: 0;
   }
 }
+.btn-secondary {
+  color: $white;
+
+  &:active
+  &:focus,
+  &:hover,
+   {
+    color: $white;
+  }
+}
+
+
