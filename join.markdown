@@ -9,7 +9,7 @@ title: Get Involved
 
 There are several ways that you can get involved with the Alliance of Civic Technologists:
 
-* [**Donate**](https://opencollective.com/act-fund): _Make tax-deductible notations through our fiscal host, the Open Collective Foundation._
+* [**Donate**](https://opencollective.com/act-fund): _Make tax-deductible deductions through our fiscal host, the Open Collective Foundation._
 
 * [Subscribe to the Newsletter](https://eepurl.com/ithxXU): _Sign up with your email to receive news, announcements, and invitations for ACT meetings. We will never use your email for any other purpose._
 
