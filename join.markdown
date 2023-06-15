@@ -16,3 +16,5 @@ There are several ways that you can get involved with the Alliance of Civic Tech
 * [Join the Discord](https://discord.gg/rBZZugJUC8): _Join our public chat server to meet others, get help, and shape the future of ACT._
 
 * Join a Local Organization: _Details coming soon!_
+
+_By participating in the Alliance of Civic Technologists, you agree to abide by our [Code of Conduct](/code-of-conduct)._

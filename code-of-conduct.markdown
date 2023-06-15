@@ -25,7 +25,7 @@ The Alliance for Civic Technology community expects that their events and Discor
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please use the following means to contact our Code of Conduct response team to tell them what you experienced or witnessed:
 Please DM the Moderators
 
-Currently, the moderators of the Discord can be reached by DM’ing @civicwhitker, @wheresHJ or @jillzey. As the community grows, we will establish more formal lines of reporting.
+**Currently, the moderators of the Discord can be reached by DM’ing @civicwhitker, @wheresHJ or @jillzey. As the community grows, we will establish more formal lines of reporting.**
 
 ACT is dedicated to providing a harassment-free experience for everyone regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, age, veteran status, or religion.
 
