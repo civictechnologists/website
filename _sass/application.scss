@@ -24,16 +24,15 @@ $fa-font-path: "../fonts/fontawesome";
     margin-bottom: 0;
   }
 }
-
-.nav-link.donate-link {
-  background-color: $blue;
+.btn-secondary {
   color: $white;
 
-  &:hover {
-    background-color: lighten($blue, 10%);
+  &:active
+  &:focus,
+  &:hover,
+   {
     color: $white;
   }
-
-  @extend .btn;
-
 }
+
+
