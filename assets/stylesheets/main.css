@@ -11935,14 +11935,21 @@ textarea.form-control-lg {
   color: #052F42;
   text-transform: uppercase;
   border-bottom: 4px solid #052F42;
+  margin-bottom: 0.75rem;
   /* Give room for icons next to the title */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.75rem;
 }
 .page-header .page-title {
   margin-bottom: 0;
+}
+
+.btn-secondary {
+  color: #fff;
+}
+.btn-secondary:active .btn-secondary:focus, .btn-secondary:hover {
+  color: #fff;
 }
 
 @font-face {
