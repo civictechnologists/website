@@ -21,7 +21,7 @@ In 2017, the Code for America Brigades came together at Brigade Congress and dra
 
 **Stay in touch via Discord**
 
-If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/rBZZugJUC8>
+If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/RP6jXM43fY>
 
 Thanks so much,<br>
 The ACT Comms Team<br>

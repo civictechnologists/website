@@ -10,14 +10,12 @@ title: Get Involved
 There are several ways that you can get involved with the Alliance of Civic Technologists:
 
 * [**Donate**](https://opencollective.com/act-fund): _Make tax-deductible deductions through our fiscal host, the Open Collective Foundation._
-
-* [Subscribe to the Newsletter](https://eepurl.com/ithxXU): _Sign up with your email to receive news, announcements, and invitations for ACT meetings. We will never use your email for any other purpose._
-
-* [Join the Discord](https://discord.gg/rBZZugJUC8): _Join our public chat server to meet others, get help, and shape the future of ACT. Channels include:_
+* [**Subscribe to the Newsletter**](https://eepurl.com/ithxXU): _Sign up with your email to receive news, announcements, and invitations for ACT meetings. We will never use your email for any other purpose._
+* [**Join the Discord**](https://discord.gg/RP6jXM43fY): _Join our public chat server to meet others, get help, and shape the future of ACT. Channels include:_
     * Questions and advice: `#help-engineering`, `#help-product-design`, `#help-policy-gov-relationships`, and `#help-marketing-growth-fundraising`.
     * Employment opportunities: `#jobs`
     * Networking with other local organizations and leaders: `#project-news`, `#events`, and `#local-delegates`
-
-* Join a Local Organization: _Details coming soon!_
+* **Stay in touch**: _Follow us on [LinkedIn](https://www.linkedin.com/company/alliance-of-civic-technologists), [Mastodon](https://mastodon.social/@allianceofcivictechnologists), and [Twitter](https://twitter.com/alliescivictech), or send us an email at [hello@civictechnologists.org](mailto:hello@civictechnologists.org)._
+* **Join a Local Organization**: _Details coming soon!_
 
 _By participating in the Alliance of Civic Technologists, you agree to abide by our [Code of Conduct](/code-of-conduct)._
