@@ -1,0 +1,22 @@
+<div class="row">
+{% for item in include.items %}
+  <article class="col-md-6 org">
+    <header class="org-header">
+      {% if item.icon %}
+        {% assign item_icon = item.icon %}
+        {% unless item.icon contains 'http' %}{% assign item_icon = item.icon | relative_url %}{% endunless %}
+        <img class="org-icon" src="{{ item.icon }}">
+      {% endif %}
+      <h3 class="org-name">{{ item.name }}</h3>
+    </header>
+    {% unless include.short %}
+      <section class="org-description">
+        {{ item.description }}
+        {% if item.url %}
+          <a href="{{ item.url }}">Website</a>
+        {% endif %}
+      </section>
+      {% endunless %}
+  </article>
+{% endfor %}
+</div>
