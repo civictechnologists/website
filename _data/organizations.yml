@@ -1,0 +1,14 @@
+- name: Open Zebes
+  url: https://www.nintendo.com/store/products/metroid-dread-switch/
+  icon: /assets/images/orgs/metroid.jpg
+  description: Open Zebes is a research organization dedicated to the protection and promotion of Metroids in our community. Funded in part by grants from the Space Pirate Research Office.
+
+- name: Code for Hyrule
+  url: https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/
+  icon: /assets/images/orgs/hyrule.png
+  description: Code for Hyrule helps people recover from the scourge of so-called "heroes" who break their pots and steal their hard-earned rupees.
+
+- name: Mushroom Kingdom Codes
+  url: https://www.amazon.com/New-Super-Mario-Bros-Deluxe-Nintendo/dp/B07HCZ7LPW
+  icon: /assets/images/orgs/mushroom.png
+  description: Helping to upskill local plumbers and other traditional industry professionals in technology.
