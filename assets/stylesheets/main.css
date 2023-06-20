@@ -11927,6 +11927,49 @@ textarea.form-control-lg {
   font-size: 0.9rem;
 }
 
+.org-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.org-list .org {
+  font-weight: bold;
+}
+
+.org {
+  margin-bottom: 1rem;
+}
+
+.org-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.org-icon {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
+  margin-right: 0.5rem;
+}
+
+.org-name {
+  line-height: 50px;
+  margin-bottom: 0;
+}
+
+.page-home .org-icon {
+  max-width: 35px;
+  max-height: 35px;
+}
+.page-home .org-name {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+  line-height: 35px;
+}
+
 .container {
   max-width: 55em;
 }
