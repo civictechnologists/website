@@ -17,7 +17,7 @@ title: Home
 {% endif %}
 
 <div markdown="1">
-  ACT is a newly formed organization that will connect volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our initial goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, launching immediately to fill the gap left by the sunsetting of Code for America's Brigade Network.
+  The Alliance of Civic Technology (ACT) is a newly formed organization that will connect volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our initial goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, launching immediately to fill the gap left by the sunsetting of Code for America's Brigade program. <a href="/about">Learn more about ACT.</a>
 </div>
 
 <div class="row mb-5">
@@ -37,8 +37,10 @@ title: Home
   </div>
 </div>
 
+<!-- TODO
 <h2>Member Organizations</h2>
 
 {% include item-list.html items=site.data.organizations short=true %}
 
-<a href="/about">Learn more about ACT</a>
+
+-->

@@ -9,7 +9,7 @@ But first we wanted to give a big thank you to our initial volunteers and donors
 
 **Our First ACT Meeting**
 
-We’re giving former Brigades and interested local civic tech organizations until Friday, June 16th to sign their letters of intent and name their delegates. On Monday, June 19th we’ll send out a pool asking delegates to indicate their availability for our first meeting. If you are a local leader and haven't received your letter of intent, please email [hello@civictechnologists.org](mailto:hello@civictechnologists.org).
+We’re giving former members of Code for America Brigades and interested local civic tech organizations until Friday, June 16th to sign their letters of intent and name their delegates. On Monday, June 19th we’ll send out a pool asking delegates to indicate their availability for our first meeting. If you are a local leader and haven't received your letter of intent, please email [hello@civictechnologists.org](mailto:hello@civictechnologists.org).
 
 **New Logo!**
 
@@ -17,7 +17,7 @@ If you’ve visited our website, [civictechnologists.org](https://civictechnolog
 
 **Call for Feedback on our Vision, Mission and Values**
 
-In 2017, the Code for America Brigades came together at Brigade Congress and drafted a Mission/Vision/Operating Principles document that reflected the values of the Brigade network. Since that time, Code for America has taken the finalized document off their website. However, this document was preserved in Github and ACT has forked it as it’s a useful starting point for setting our own vision, mission, and values. You can comment and suggest changes [here](https://docs.google.com/document/d/1h-cNQtJrMZi3yaohQIJPMbxh4lnKzUQtI_Vm0ptBExA/edit). We’ll keep the comment section open until we formally adopt our governance structure.
+In 2017, the civic technology organizations came together at Code for America's Brigade Congress and drafted a Mission/Vision/Operating Principles document that reflected the values of the Brigade network. Since that time, Code for America has taken the finalized document off their website. However, this document was preserved in Github and ACT has forked it as it’s a useful starting point for setting our own vision, mission, and values. You can comment and suggest changes [here](https://docs.google.com/document/d/1h-cNQtJrMZi3yaohQIJPMbxh4lnKzUQtI_Vm0ptBExA/edit). We’ll keep the comment section open until we formally adopt our governance structure.
 
 **Stay in touch via Discord**
 
