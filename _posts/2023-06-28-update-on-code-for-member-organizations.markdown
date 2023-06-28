@@ -1,6 +1,7 @@
 ---
 title: "Update on 'Code for' member organizations"
 date: 2023-06-28 0:00:00 -0400
+published: false
 ---
 
 We’ve been informed that Code for America will attempt to come to an agreement with "Code for" member organizations still seeking to retain their names. We are waiting on details, but we look forward to the conversation on how to gracefully transition the program in a way that maximizes the enduring success of local civic tech efforts. 
