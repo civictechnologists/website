@@ -1,7 +1,23 @@
 ---
 layout: default
 ---
+{% if page.locale %}
+  {% assign locale = page.locale %}
+{% else %}
+  {% assign locale = site.defaultlocale %}
+{% endif %}
 
-<div class="container ">
-{{content}}
+{%- for loc in site.locales %}
+  {% if loc[0] == locale %}
+    {% assign localeInfo = loc[1] %}
+    {% for lang in site.data.lang %}
+      {% if lang[0] == localeInfo.language %}
+        {% assign tr = lang[1] %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor -%}
+
+<div class="container">
+  {{content}}
 </div>

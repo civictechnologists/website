@@ -1,7 +1,9 @@
 ---
-title: "Update on 'Code for' member organizations"
+title: "ES-Update on 'Code for' member organizations"
 date: 2023-06-28 0:00:00 -0400
-locale: en_US
+locale: es_MX
+language: es
+permalink: /es/news/:title
 published: false
 ---
 

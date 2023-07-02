@@ -1,7 +1,9 @@
 ---
-title: ACT June Social Hour
+title: ES-ACT June Social Hour
 date: 2023-06-23 0:00:00 -0400
-locale: en_US
+locale: es_MX
+language: es
+permalink: /es/news/:title
 ---
 
 Happy Friday!  The Alliance of Civic Technologists would like to invite you to a virtual social hour on June 29th at 8:30 PM EST / 5:30 PM to celebrate our filing as a 501c3! 

@@ -1,0 +1,40 @@
+{% if page.locale %}
+  {% assign locale = page.locale %}
+{% else %}
+  {% assign locale = site.defaultlocale %}
+{% endif %}
+
+{%- for loc in site.locales %}
+  {% if loc[0] == locale %}
+    {% assign localeInfo = loc[1] %}
+    {% for lang in site.data.lang %}
+      {% if lang[0] == localeInfo.language %}
+        {% assign tr = lang[1] %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor -%}
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ tr.global.title | xml_escape }}</title>
+    <description>{{ tr.global.title | xml_escape }}</description>
+    <link>{{ site.url | relative_url }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: localeInfo.path | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% assign posts = site.posts | where: "locale", locale %}
+    {% for post in posts limit: 10 %}
+      {% assign link_url = post.url | absolute_url %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | markdownify | append: post_footer | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ link_url }}</link>
+        <guid isPermaLink="true">{{ link_url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-locale: en_US
+locale: es_MX
 ---
 <header class="page-header">
   <h1 class="page-title">About</h1>

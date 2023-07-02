@@ -1,11 +1,124 @@
----
-layout: base
----
+{% if page.locale %}
+  {% assign locale = page.locale %}
+{% else %}
+  {% assign locale = site.defaultlocale %}
+{% endif %}
 
-{% include nav.html %}
+{%- for loc in site.locales %}
+  {% if loc[0] == locale %}
+    {% assign localeInfo = loc[1] %}
+    {% for lang in site.data.lang %}
+      {% if lang[0] == localeInfo.language %}
+        {% assign tr = lang[1] %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor -%}
 
-<div class="container ">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="{{ localeInfo.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include footer.html %}
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | relative_url }}">
+    <script src="{{ "/assets/javascripts/main.js" | relative_url }}"></script>
+
+    <link rel="icon" href="{{ "/assets/images/icon.png" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ "/feed.xml" | relative_url }}">
+
+    {% seo %}
+  </head>
+  <body class="page-{{ page.title | slugify }}">
+    <!-- Google Analytcs -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXFE368WBZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-FXFE368WBZ');
+    </script>
+
+    <!-- Piwik PRO Tag Manager -->
+    <script type="text/javascript">
+      (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="https://civictechnologists.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+      })(window, document, 'dataLayer', 'f7eb6ed5-1703-4cab-85f2-5f4542030161');
+    </script>
+
+    <nav class="navbar bg-body-tertiary mb-3 navbar-expand-lg">
+      <div class="container justify-content-center justify-content-sm-between">
+        <a class="navbar-brand h2 text-primary mb-0" href="{{ "/" | prepend: localeInfo.path | relative_url }}" title="{{ tr.global.title }} - {{ tr.pages.home }}">
+          <img src="{{ "/assets/images/icon.png" | relative_url }}" alt="" width="30" height="30" class="d-inline-block align-text-bottom">
+          {{ tr.global.title }}
+        </a>
+        <ul class="navbar-nav flex-row align-items-center">
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="{{ "/" | prepend: localeInfo.path | relative_url }}">{{ tr.pages.home }}</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="{{ "/about" | prepend: localeInfo.path | relative_url }}">{{ tr.pages.about }}</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="{{ "/news" | prepend: localeInfo.path | relative_url }}">{{ tr.pages.news }}</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="{{ "/join" | prepend: localeInfo.path | relative_url }}">{{ tr.pages.join }}</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="btn btn-secondary btn-sm " aria-current="page" href="https://opencollective.com/act-fund">{{ tr.pages.donate }}</a>
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ localeInfo.name }}
+            </a>
+            <ul class="dropdown-menu">
+              {% for locale in site.locales %}
+                <li><a class="dropdown-item" href="{{ page.url | replace_first: localeInfo.path, locale[1].path }}">{{ locale[1].name }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container ">
+      {{ content }}
+    </div>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 mb-0 text-body-secondary justify-content-center justify-content-sm-end text-center text-sm-start">
+          <strong>{{ tr.global.title }}</strong><br>
+          <small>{{ tr.global.description }}</small>
+        </div>
+
+        <div class="col-md-4 d-flex flex-fill align-items-center justify-content-center">
+          <img src="{{ "/assets/images/icon.png" | relative_url }}" width="60" alt="">
+        </div>
+
+        <ul class="nav col-md-4 justify-content-center justify-content-sm-end">
+          <li class="nav-item"><a href="{{ "/" | prepend: langPath | relative_url }}" class="nav-link px-0 pe-2 py-1 text-body-secondary">{{ tr.pages.home }}</a></li>
+          <li class="nav-item"><a href="{{ "/news" | prepend: langPath | relative_url }}" class="nav-link px-2 py-1 text-body-secondary">{{ tr.pages.news }}</a></li>
+          <li class="nav-item"><a href="https://opencollective.com/act-fund" class="nav-link px-2 py-1 text-body-secondary">{{ tr.pages.donate }}</a></li>
+          <li class="nav-item"><a href="https://opencollective.com/act-fund" class="nav-link px-2 py-1 text-body-secondary">{{ tr.pages.donate }}</a></li>
+          <li class="nav-item"><a href="{{ "/join" | prepend: langPath | relative_url }}" class="nav-link px-2 py-1 text-body-secondary">{{ tr.pages.join }}</a></li>
+          <li class="nav-item"><a href="https://eepurl.com/ithxXU" class="nav-link px-2 py-1 text-body-secondary">{{ tr.pages.mailinglist }}</a></li>
+          <li class="nav-item"><a href="{{ "/code-of-conduct" | prepend: langPath | relative_url }}" class="nav-link px-2 py-1 text-body-secondary">{{ tr.pages.coc }}</a></li>
+          <li class="nav-item"><a href="https://discord.gg/RP6jXM43fY" class="nav-link px-2 py-1 text-body-secondary">{{ tr.social.discord }}</a></li>
+          <li class="nav-item"><a href="mailto:hello@civictechnologists.org" class="nav-link px-2 py-1 text-body-secondary">{{ tr.social.email }}</a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/company/alliance-of-civic-technologists" class="nav-link px-2 py-1 text-body-secondary">{{ tr.social.linkedin }}</a></li>
+          <li class="nav-item"><a href="https://mastodon.social/@allianceofcivictechnologists" class="nav-link px-2 py-1 text-body-secondary">{{ tr.social.mastodon }}</a></li>
+          <li class="nav-item"><a href="https://twitter.com/alliescivictech" class="nav-link px-2 py-1 text-body-secondary">{{ tr.social.twitter }}</a></li>
+        </ul>
+      </footer>
+    </div>
+
+  </body>
+</html>
