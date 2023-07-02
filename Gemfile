@@ -3,3 +3,4 @@ ruby File.read(File.join(File.dirname(__FILE__), '.ruby-version')).strip
 
 gem "jekyll"
 gem "jekyll-seo-tag"
+gem "jekyll-paginate-v2"

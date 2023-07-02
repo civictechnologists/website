@@ -1,8 +1,9 @@
 ---
 layout: home
-title: Home
+title: ES-Home
+permalink: /es/
 image: /assets/images/logo.png
-locale: en_US
+locale: es_MX
 ---
 
 <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="" class="img-fluid" />
@@ -13,7 +14,7 @@ locale: en_US
 {% if posts.size > 0 %}
   <div class="card card-body bg-light mb-3">
     {% for post in posts limit:1 %}
-      <p class="mb-0"><strong>🎉 Latest Update ({{ post.date | date: "%B %-d, %Y" }})</strong>:
+      <p class="mb-0"><strong>🎉 Latest Update ({{ post.date | date: "%-d/%-m/%Y" }})</strong>:
       <a href="{{ "/news" | relative_url }}">{{ post.title }}</a></p>
     {% endfor %}
   </div>

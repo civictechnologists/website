@@ -1,0 +1,39 @@
+global:
+  title: ES-Alliance of Civic Technologists
+  description: ES-ACT is a decentralized network of civic tech volunteer organizations.
+
+pages:
+  home: ES-Home
+  about: ES-About
+  news: ES-News
+  join: ES-Join
+  donate: ES-Donate
+  mailinglist: ES-Mailing List
+  coc: ES-Code of Conduct
+
+social:
+  discord: ES-Discord
+  email: ES-Email
+  linkedin: ES-LinkedIn
+  mastodon: ES-Mastodon
+  twitter: ES-Twitter
+
+content:
+  post:
+    footer: |
+      ES-The Alliance of Civic Technologists (ACT) is an organization that connects
+      volunteer civic technology efforts in both technology and advocacy within
+      local communities. Formed in 2023, ACT's goal is to ensure the continuity
+      and growth of civic technology volunteer communities across the United States.
+    back: ES-Back to News
+
+  news:
+    rssLink: ES-Subscribe to RSS Feed
+    rssIcon: ES-RSS Icon
+
+pagination:
+  label: ES-page navigation
+  first: ES-First
+  previous: ES-Previous
+  next: ES-Next
+  last: ES-Last

@@ -5,6 +5,16 @@ url: "https://www.civictechnologists.org" # the base hostname & protocol for you
 baseurl: "" # the subpath of your site, e.g. /blog
 
 timezone: "America/New_York"
+defaultlocale: en_US
+locales:
+  en_US:
+    language: en
+    name: English
+    path: ""
+  es_MX:
+    language: es
+    name: Español
+    path: /es
 
 exclude:
   - .sass-cache/
@@ -20,10 +30,11 @@ exclude:
   - vendor/ruby/
   - README.md
 
-permalink: "/:year/:month/:title"
+permalink: "/news/:title"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 
 defaults:
   - scope:
@@ -31,3 +42,13 @@ defaults:
       type: "posts"
     values:
       layout: post
+
+pagination:
+  enabled: true
+  sort_reverse: true
+  per_page: 10
+  title: ":title"
+  permalink: "/news/:num/"
+  trail:
+    before: 2 # The number of links before the current page
+    after: 2  # The number of links after the current page

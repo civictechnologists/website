@@ -25,6 +25,7 @@ $fa-font-path: "../fonts/fontawesome";
     margin-bottom: 0;
   }
 }
+
 .btn-secondary {
   color: $white;
 
@@ -36,4 +37,12 @@ $fa-font-path: "../fonts/fontawesome";
   }
 }
 
+.nav-item {
+  .nav-link, .btn, .dropdown-item {
+    font-size: 0.85rem;
+  }
+}
 
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}

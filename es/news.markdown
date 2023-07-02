@@ -1,10 +1,11 @@
 ---
 layout: news
-title: News
-locale: en_US
-permalink: /news/
+title: ES-News
+locale: es_MX
+permalink: /es/news/
 pagination:
   enabled: true
-  locale: en_US
+  locale: es_MX
   permalink: "/:num/"
 ---
+

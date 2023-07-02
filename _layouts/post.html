@@ -1,18 +1,33 @@
 ---
 layout: default
 ---
+{% if page.locale %}
+  {% assign locale = page.locale %}
+{% else %}
+  {% assign locale = site.defaultlocale %}
+{% endif %}
+
+{%- for loc in site.locales %}
+  {% if loc[0] == locale %}
+    {% assign localeInfo = loc[1] %}
+    {% for lang in site.data.lang %}
+      {% if lang[0] == localeInfo.language %}
+        {% assign tr = lang[1] %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor -%}
 
 {% assign post = page %}
 {% include post.html post=post %}
 
 <div class="post-footer text-body-secondary">
   <p>
-    The Alliance of Civic Technologists (ACT) is an organization that connects volunteer civic technology efforts in both technology and advocacy within local communities.
-    Formed in 2023, ACT's goal is to ensure the continuity and growth of civic technology volunteer communities across the United States.
+    !{{ tr.content.post.footer }}!
   </p>
 </div>
 
 <section class="page-nav">
-  <a href="/news/" class="page-nav-link">Back to News</a>
+  <a href="{{ "/news/" | prepend: localeInfo.path | relative_url }}" class="page-nav-link">{{ tr.content.post.back }}</a>
 </section>
 

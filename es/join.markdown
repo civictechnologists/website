@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get Involved
-locale: en_US
+locale: es_MX
 ---
 
 <header class="page-header">
