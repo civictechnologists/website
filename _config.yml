@@ -1,8 +1,11 @@
 title: Alliance of Civic Technologists
 description: ACT is a decentralized network of civic tech volunteer organizations.
+
 url: "https://www.civictechnologists.org" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
+
 timezone: "America/New_York"
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -16,7 +19,12 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+
 permalink: "/:year/:month/:title"
+
+plugins:
+  - jekyll-seo-tag
+
 defaults:
   - scope:
       path: ""

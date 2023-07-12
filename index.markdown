@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+image: /assets/images/logo.png
 ---
 
 <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="" class="img-fluid" />
