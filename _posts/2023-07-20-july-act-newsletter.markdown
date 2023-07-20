@@ -3,11 +3,16 @@ title: "July ACT Newsletter: Writing our values, Code for Boston's MAPLE Launch 
 date: 2023-07-20 0:00:00 -0400
 ---
 
+<figure class="figure">
+  <img src="/assets/images/posts/2023-07-20-project-maple.jpg" alt="Code for Boston meeting around a conference table." class="figure-img">
+  <figcaption class="figure-caption"><a href="https://www.facebook.com/photo/?fbid=274613735240025&set=ecnf.100080742018905">Code for Boston</a> meeting in person. Read more about their Maple Testimony app in this newsletter.</figcaption>
+</figure>
+
 Welcome to the ACT July Newsletter! We’re hoping that everyone is staying safe and cool during the extreme weather we’re having.
 
 ### Writing out our values
 
-After a few weeks of reviewing what volunteer groups put together in 2017, we now have an initial draft of our mission, values, and operating principles. Thank you to everyone who contributed their feedback!  
+After a few weeks of reviewing what volunteer groups put together in 2017, we now have an initial draft of our mission, values, and operating principles. Thank you to everyone who contributed their feedback!
 
 The next step will be to share the draft document with our delegates for feedback. We’ll meet at a delegate-only meeting on July 27th to review the proposal and possibly vote for its approval. In the meantime, you can read and [comment on the proposed document here](https://docs.google.com/document/d/1DMUMw9Vm0b8rQ7_EnKwGouUXJrIIykIFxTcDxWjZcms/edit)!
 
@@ -27,5 +32,6 @@ _Does your local civic tech organization have a story to tell? Want to be featur
 
 ### Thanks for all you do!
 
-Thanks again for all of your support and everything you do.  
-- ACT Comms Team 
+Thanks again for all of your support and everything you do.
+
+– ACT Comms Team 
