@@ -11,7 +11,7 @@ There are several ways that you can get involved with the Alliance of Civic Tech
 
 * [**Donate**](https://opencollective.com/act-fund): _Make tax-deductible deductions through our fiscal host, the Open Collective Foundation._
 * [**Subscribe to the Newsletter**](https://eepurl.com/ithxXU): _Sign up with your email to receive news, announcements, and invitations for ACT meetings. We will never use your email for any other purpose._
-* [**Join the Discord**](https://discord.gg/RP6jXM43fY): _Join our public chat server to meet others, get help, and shape the future of ACT. Channels include:_
+* [**Join the Discord**](https://discord.gg/EM6ywtMhkP): _Join our public chat server to meet others, get help, and shape the future of ACT. Channels include:_
     * Questions and advice: `#help-engineering`, `#help-product-design`, `#help-policy-gov-relationships`, and `#help-marketing-growth-fundraising`.
     * Employment opportunities: `#jobs`
     * Networking with other local organizations and leaders: `#project-news`, `#events`, and `#local-delegates`

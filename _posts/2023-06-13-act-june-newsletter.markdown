@@ -21,7 +21,7 @@ In 2017, the civic technology organizations came together at Code for America's 
 
 **Stay in touch via Discord**
 
-If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/RP6jXM43fY>
+If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/EM6ywtMhkP>
 
 Thanks so much,<br>
 The ACT Comms Team<br>
