@@ -28,7 +28,7 @@ In recent months, student interns and the developer team at [Florida Community I
 
 ACT continues to grow, with three more members signing on and bringing our total number of members to twenty. We were recently joined by [Code for Atlanta](https://www.codeforatlanta.org/), [Code for Hawaii](https://www.meetup.com/code-for-hawaii/) and [OpenSTL](https://openstl.org/) (St Louis). 
 
-_Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at hello@civictechnologists.org_
+_Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at {{ site.content.email_contact }}_
 
 ### Thanks for all you do!
 
