@@ -9,7 +9,7 @@ But first we wanted to give a big thank you to our initial volunteers and donors
 
 **Our First ACT Meeting**
 
-We’re giving former members of Code for America Brigades and interested local civic tech organizations until Friday, June 16th to sign their letters of intent and name their delegates. On Monday, June 19th we’ll send out a pool asking delegates to indicate their availability for our first meeting. If you are a local leader and haven't received your letter of intent, please email [hello@civictechnologists.org](mailto:hello@civictechnologists.org).
+We’re giving former members of Code for America Brigades and interested local civic tech organizations until Friday, June 16th to sign their letters of intent and name their delegates. On Monday, June 19th we’ll send out a pool asking delegates to indicate their availability for our first meeting. If you are a local leader and haven't received your letter of intent, please email [{{ site.content.email_contact }}](mailto:{{ site.content.email_contact }}).
 
 **New Logo!**
 
@@ -21,10 +21,10 @@ In 2017, the civic technology organizations came together at Code for America's 
 
 **Stay in touch via Discord**
 
-If you’re interested in chatting with the community in real time, we have an open discord server at <https://discord.gg/EM6ywtMhkP>
+If you’re interested in chatting with the community in real time, we have an open discord server at <{{ site.content.discord_url }}>
 
 Thanks so much,<br>
 The ACT Comms Team<br>
 (Christopher, Brianda, Ben and Jill)
 
-_Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at [hello@civictechnologists.org](mailto:hello@civictechnologists.org)_
+_Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at [{{ site.content.email_contact }}](mailto:{{ site.content.email_contact }})_

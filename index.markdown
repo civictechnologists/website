@@ -32,7 +32,7 @@ image: /assets/images/logo.png
   <div class="col-md-6 text-center">
     <h3 class="h1 text-secondary">Donate today!</h3>
     <p class="d-grid">
-      <a href="https://opencollective.com/act-fund" class="btn btn-primary">Donate to ACT</a>
+      <a href="{{ site.content.donate_url }}" class="btn btn-primary">Donate to ACT</a>
     </p>
     <p><em>To support our efforts financially, donations can be made on our Open Collective.</em></p>
   </div>

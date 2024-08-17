@@ -3,6 +3,10 @@ description: ACT is a decentralized network of civic tech volunteer organization
 
 url: "https://www.civictechnologists.org" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
+content:
+  donate_url: "https://hcb.hackclub.com/donations/start/alliance-of-civic-technologists"
+  discard_url: "https://discord.gg/EM6ywtMhkP"
+  email_contact: "hello@civictechnologists.org"
 
 timezone: "America/New_York"
 
