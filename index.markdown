@@ -6,19 +6,9 @@ image: /assets/images/logo.png
 
 <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="" class="img-fluid" />
 <h1 class="visually-hidden">Alliance of Civic Technologists</h1>
-<h2 class="text-secondary mb-3">We are thrilled to announce the formation of the Alliance of Civic Technologists (ACT).</h2>
-
-{% if site.posts.size > 0 %}
-  <div class="card card-body bg-light mb-3">
-    {% for post in site.posts limit:1 %}
-      <p class="mb-0"><strong>🎉 Latest Update ({{ post.date | date: "%B %-d, %Y" }})</strong>:
-      <a href="{{ "/news" | relative_url }}">{{ post.title }}</a></p>
-    {% endfor %}
-  </div>
-{% endif %}
 
 <div markdown="1">
-  The Alliance of Civic Technology (ACT) is a newly formed organization that will connect volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our initial goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, launching immediately to fill the gap left by the sunsetting of Code for America's Brigade program. <a href="/about">Learn more about ACT.</a>
+  The Alliance of Civic Technology (ACT) is connects volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, and to fill the gap left by the sunsetting of Code for America's Brigade program. <a href="/about">Learn more about ACT.</a>
 </div>
 
 <div class="row mb-5">
