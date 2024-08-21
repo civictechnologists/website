@@ -8,7 +8,7 @@ image: /assets/images/logo.png
 <h1 class="visually-hidden">Alliance of Civic Technologists</h1>
 
 <div markdown="1">
-  The Alliance of Civic Technology (ACT) is connects volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, and to fill the gap left by the sunsetting of Code for America's Brigade program. <a href="/about">Learn more about ACT.</a>
+  The Alliance of Civic Technology (ACT) connects volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, and to fill the gap left by the sunsetting of Code for America's Brigade program. <a href="/about">Learn more about ACT.</a>
 </div>
 
 <div class="row mb-5">
