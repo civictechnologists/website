@@ -5,7 +5,7 @@ url: "https://www.civictechnologists.org" # the base hostname & protocol for you
 baseurl: "" # the subpath of your site, e.g. /blog
 content:
   donate_url: "https://hcb.hackclub.com/donations/start/alliance-of-civic-technologists"
-  discard_url: "https://discord.gg/EM6ywtMhkP"
+  discord_url: "https://discord.gg/EM6ywtMhkP"
   email_contact: "hello@civictechnologists.org"
 
 timezone: "America/New_York"
