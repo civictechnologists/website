@@ -24,7 +24,7 @@ image: /assets/images/logo.png
     <p class="d-grid">
       <a href="{{ site.content.donate_url }}" class="btn btn-primary">Donate to ACT</a>
     </p>
-    <p><em>To support our efforts financially, donations can be made on our Open Collective.</em></p>
+    <p><em>To support our efforts financially, donations can be made on Hack Club.</em></p>
   </div>
 </div>
 

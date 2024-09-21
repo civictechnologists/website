@@ -9,7 +9,7 @@ title: Get Involved
 
 There are several ways that you can get involved with the Alliance of Civic Technologists:
 
-* [**Donate**]({{ site.content.donate_url }}): _Make tax-deductible deductions through our fiscal host, the Open Collective Foundation._
+* [**Donate**]({{ site.content.donate_url }}): _Make tax-deductible deductions through Hack Club._
 * [**Subscribe to the Newsletter**](https://eepurl.com/ithxXU): _Sign up with your email to receive news, announcements, and invitations for ACT meetings. We will never use your email for any other purpose._
 * [**Join the Discord**]({{ site.content.discord_url }}): _Join our public chat server to meet others, get help, and shape the future of ACT. Channels include:_
     * Questions and advice: `#help-engineering`, `#help-product-design`, `#help-policy-gov-relationships`, and `#help-marketing-growth-fundraising`.
