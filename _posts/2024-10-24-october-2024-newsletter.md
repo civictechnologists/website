@@ -1,5 +1,5 @@
 ---
-title: "July ACT Newsletter: Membership Applications Open October 29th During Virtual Session of Chi Hack Night"
+title: "ACT October '24 Newsletter: Membership Applications Open October 29th During Virtual Session of Chi Hack Night"
 date: 2024-10-24 0:00:00 -0700
 ---
 
