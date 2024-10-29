@@ -7,6 +7,14 @@ image: /assets/images/logo.png
 <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="" class="img-fluid" />
 <h1 class="visually-hidden">Alliance of Civic Technologists</h1>
 
+<h3>Membership applications now open ✨</h3>
+
+<p>Membership applications for existing local civic tech organizations is now open! <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSe1Y4ht-9W-tXDMvnugLCHbs81YWP9N4AR1oPdtWpkAW98ZfQ/viewform?usp=sf_link">Click HERE to apply!</a></strong></p>
+
+<p>At this time, ACT is not accepting applications from new local civic tech organizations. <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSdrrgzKSE21gWHR2zQChgEk_0qeaRoGmMqigg7bDkSOLgNLLQ/viewform?usp=sf_link">Express interest HERE!</a></strong></p>
+
+<hr>
+
 <div markdown="1">
   The Alliance of Civic Technology (ACT) connects volunteer civic technology efforts, in both technology and advocacy, in their local communities. Our goal is to ensure the continuity and growth of civic technology volunteer communities across the United States, and to fill the gap left by the sunsetting of Code for America's Brigade program. <a href="/about">Learn more about ACT.</a>
 </div>
