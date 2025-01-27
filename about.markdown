@@ -13,6 +13,10 @@ The mission of the Alliance of Civic Technologists is to support, grow, and enab
 The Alliance of Civic Technology (ACT) is a solidarity network that connect volunteer civic technology efforts in their local communities through supporting digital service projects and educating stakeholders on technology issues in the public space.
 </p>
 
+<h2>Member Organizations</h2>
+
+{% include members-list.html members=site.data.members %}
+
 <h2>Staff and Board</h2>
 
 - Christopher Whitaker (Executive Director)

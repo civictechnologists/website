@@ -1,0 +1,5 @@
+<ul>
+  {% for member in include.members %}
+    <li><a href="{{ member.url }}">{{ member.name }}</a></li>
+  {% endfor %}
+</ul>
