@@ -7,6 +7,9 @@ content:
   donate_url: "https://hcb.hackclub.com/donations/start/alliance-of-civic-technologists"
   discord_url: "https://discord.gg/EM6ywtMhkP"
   email_contact: "hello@civictechnologists.org"
+  bluesky: "https://civictechallies.bsky.social"
+  mastodon: "https://mastodon.social/@allianceofcivictechnologists"
+  linkedin: "https://www.linkedin.com/company/alliance-of-civic-technologists"
 
 timezone: "America/New_York"
 
