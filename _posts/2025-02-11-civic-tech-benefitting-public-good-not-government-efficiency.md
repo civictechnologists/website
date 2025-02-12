@@ -1,7 +1,9 @@
 ---
-title: "Civic Tech, Cyberpunk and the Oligarchy"
+title: "Civic Tech is About Benefiting The Public Good, not Government Efficiency"
 date: 2025-02-11 0:00:00 -0700
 ---
+
+**By Christopher Whitaker and Derek Eder**
 
 ![A spiderman comic: I don't want to cure cancer, I want to turn people into dinosaurs!](/media/2025/cancer_or_dinosaurs.jpg)
 
