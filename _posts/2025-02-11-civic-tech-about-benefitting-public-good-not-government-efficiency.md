@@ -5,7 +5,11 @@ date: 2025-02-11 0:00:00 -0700
 
 **By Christopher Whitaker and Derek Eder**
 
-![A spiderman comic: I don't want to cure cancer, I want to turn people into dinosaurs!](/media/2025/cancer_or_dinosaurs.jpg)
+<p style="text-align: center">
+    <a href="/media/2025/cancer_or_dinosaurs.jpg">
+          <img src="/media/2025/cancer_or_dinosaurs.jpg" alt="A spiderman comic: I don't want to cure cancer, I want to turn people into dinosaurs!" style="max-width: 300px">
+    </a>
+</p>
 
 The past few weeks have featured an unprecedented assault on the United States Constitution, civil rights, and America’s public servants.
 
@@ -59,7 +63,7 @@ That’s teaching cybersecurity basics. That’s putting up a website. That’s 
 
 There may be times when they will need an app, but a lot of the work may end up being basic block and tackle technology work. It’s still important. Remember, civic tech is an enabling function and we’re enabling the organizations that are reducing harm.
 
-### Step Four: Share wins and lessons 
+### Step Four: Share wins and lessons
 
 In the times ahead we’ll have both challenges and wins. As we do, it’s important to share those stories with other groups doing this work so they can learn from your mistakes and victories. Blogging and telling those stories is work, but if another group faces the same challenges you did they’re now at an advantage.
 
@@ -69,4 +73,4 @@ You can help share those stories through ACT newsletter or your own blog.
 
 The next few years will be difficult, but the key thing for us to remember is that our jobs will be to reduce harm wherever we can. If food prices go up, helping a food pantry get food on the table is a win. If the administration targets our cities for mass deportation campaigns, every door that doesn’t open without a warrant is a win. Every activist that doesn’t get hacked because they were coached on cybersecurity is a win.
 
-We’ll get there, and we’ll be there with you. 
+We’ll get there, and we’ll be there with you.
