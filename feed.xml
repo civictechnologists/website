@@ -5,8 +5,8 @@
     <description>ACT is a decentralized network of civic tech volunteer organizations.</description>
     <link>https://www.civictechnologists.org/</link>
     <atom:link href="https://www.civictechnologists.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Feb 2025 12:28:23 -0500</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 12:28:23 -0500</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2025 13:48:08 -0500</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2025 13:48:08 -0500</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       
@@ -14,7 +14,11 @@
         <title>Civic Tech is About Benefiting The Public Good, not Government Efficiency</title>
         <description>&lt;p&gt;&lt;strong&gt;By Christopher Whitaker and Derek Eder&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/media/2025/cancer_or_dinosaurs.jpg&quot; alt=&quot;A spiderman comic: I don&apos;t want to cure cancer, I want to turn people into dinosaurs!&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;
+    &lt;a href=&quot;/media/2025/cancer_or_dinosaurs.jpg&quot;&gt;
+          &lt;img src=&quot;/media/2025/cancer_or_dinosaurs.jpg&quot; alt=&quot;A spiderman comic: I don&apos;t want to cure cancer, I want to turn people into dinosaurs!&quot; style=&quot;max-width: 300px&quot; /&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
 
 &lt;p&gt;The past few weeks have featured an unprecedented assault on the United States Constitution, civil rights, and America’s public servants.&lt;/p&gt;
 
