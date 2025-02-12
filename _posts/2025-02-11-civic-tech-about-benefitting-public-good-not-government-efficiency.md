@@ -15,7 +15,7 @@ The past few weeks have featured an unprecedented assault on the United States C
 
 And contrary to some media narratives, there’s fierce opposition to everything that’s happening. That opposition will play out in the courts. It will play out in the streets and it will eventually play out at the ballot box.
 
-These efforts will take time and as most of us are non-partisan non-profits take place outside our lanes. This does not negate those efforts, this post is mostly aimed at what civic tech volunteer groups can do.
+These efforts will take time.  As most of us are non-partisan, non-profits, these efforts take place outside our lanes. This does not negate those efforts, this post is mostly aimed at what civic tech volunteer groups can do.
 
 Authoritarian regimes want to crush the opposition. Part of this means ensuring that if you’re not compliant, things will be unbearable and unsustainable.
 
