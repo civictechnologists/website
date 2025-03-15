@@ -3,37 +3,37 @@ title: "ACT Newsletter March 2025: First Resolution, Organizers Needed, We Suppo
 date: 2025-03-06 0:00:00 -0700
 ---
 
-### First Resolution 
+### First Resolution
 
-During the most recent delegates meeting, the first resolution for the Alliance of Civic Technologists (ACT) was unanimously passed. [RESOLUTION ONE - TWENTY-TWENTY-FIVE](https://docs.google.com/document/d/1WVGqfxORJQqpzm-RiM8wf1PgiR2JTzekW-vMnxX-srk/edit?usp=sharing) is a direct response from ACT and its members to the current administration’s executive orders and actions that are adversely impacting the rights of Lesbian, Gay, Bisexual, Trans, and Queer/Questioning (LGBTQ+) individuals, Diversity, Equity, Inclusion, and Accessibility (DEIA) initiatives, immigrant communities, and the federal workforce. This resolution also serves as a strong statement of support for these communities and programs by ACT’s members. 
+During the most recent delegates meeting, the first resolution for the Alliance of Civic Technologists (ACT) was unanimously passed. [RESOLUTION ONE - TWENTY-TWENTY-FIVE](https://docs.google.com/document/d/1WVGqfxORJQqpzm-RiM8wf1PgiR2JTzekW-vMnxX-srk/edit?usp=sharing) is a direct response from ACT and its members to the current administration’s executive orders and actions that are adversely impacting the rights of Lesbian, Gay, Bisexual, Trans, and Queer/Questioning (LGBTQ+) individuals, Diversity, Equity, Inclusion, and Accessibility (DEIA) initiatives, immigrant communities, and the federal workforce. This resolution also serves as a strong statement of support for these communities and programs by ACT’s members.
 
 > "In short, our communities welcome all - but compassionately reject harmful actions."
 
-### Join Our Network: Organizers Needed 
+### Join Our Network: Organizers Needed
 
-The Alliance of Civic Technologists is actively recruiting organizers to support member organizations in Tulsa, Baltimore, Dallas, and Nebraska. If you’re passionate about making an impact, we’d love to hear from you! Reach out to [hello@civictechnologists.org](mailto:hello@civictechnologists.org) to get involved. 
+The Alliance of Civic Technologists is actively recruiting organizers to support member organizations in Tulsa, Baltimore, Dallas, and Nebraska. If you’re passionate about making an impact, we’d love to hear from you! Reach out to [hello@civictechnologists.org](mailto:hello@civictechnologists.org) to get involved.
 
 ### We Support 18F
 
-As of March 1, 2025, 18F, a program within the [General Services Administration (GSA)](https://www.gsa.gov/), has officially been [shut down](https://fedscoop.com/gsa-shutters-18f-possibly-leaving-agencies-in-the-lurch/). However, the talented team of tech consultants and engineers, who built open-source tools to improve digital services across the federal government has [come together](https://bsky.app/profile/alt18f.bsky.social). Their dedication to helping, “[the government to fix things](https://18f.org/#:~:text=the%20government%20to%20fix%20things),” is absolutely inspirational, and we’re excited to witness their work as they continue their mission, driving a positive change in the civic tech community. 
+As of March 1, 2025, 18F, a program within the [General Services Administration (GSA)](https://www.gsa.gov/), has officially been [shut down](https://fedscoop.com/gsa-shutters-18f-possibly-leaving-agencies-in-the-lurch/). However, the talented team of tech consultants and engineers, who built open-source tools to improve digital services across the federal government has [come together](https://bsky.app/profile/alt18f.bsky.social). Their dedication to helping, “[the government to fix things](https://18f.org/#:~:text=the%20government%20to%20fix%20things),” is absolutely inspirational, and we’re excited to witness their work as they continue their mission, driving a positive change in the civic tech community.
 
-### Network Roundup 
+### Network Roundup
 
-Here are some quick notes about what’s been happening in the network! 
+Here are some quick notes about what’s been happening in the network!
 
-- [Code for Philly](https://codeforphilly.org/) is building an ultimate toolkit, called [Clean & Green Philly](https://cleanandgreenphilly.org/), for local community groups to reduce gun violence by cleaning and greening vacant properties. 
-- [BetaNYC](https://beta.nyc/) celebrates over a decade of observing March as “[Sunshine Month](https://sunshineweek.org/)”, where open government, freedom of information, and the City’s open data law are at the forefront, by co-hosting [NYC Open Data Week](https://2025.open-data.nyc/) and [NYC School of Data](https://schoolofdata.nyc/). 
-- [Chi Hack Night](https://chihacknight.org/) recently held their [sixth Board of Directors election](https://chihacknight.org/blog/2025/02/18/election-results), with a majority of their official members turning out to cast their vote. 
-- [Florida Community Innovation (FCI)](https://floridainnovation.org/) released their [new handbook](https://floridainnovation.org/2025/02/26/fci-handbook/), detailing what FCI is, their projects, and more. 
+- [Code for Philly](https://codeforphilly.org/) is building an ultimate toolkit, called [Clean & Green Philly](https://cleanandgreenphilly.org/), for local community groups to reduce gun violence by cleaning and greening vacant properties.
+- [BetaNYC](https://beta.nyc/) celebrates over a decade of observing March as “[Sunshine Month](https://sunshineweek.org/)”, where open government, freedom of information, and the City’s open data law are at the forefront, by co-hosting [NYC Open Data Week](https://2025.open-data.nyc/) and [NYC School of Data](https://schoolofdata.nyc/).
+- [Chi Hack Night](https://chihacknight.org/) recently held their [sixth Board of Directors election](https://chihacknight.org/blog/2025/02/18/election-results), with a majority of their official members turning out to cast their vote.
+- [Florida Community Innovation (FCI)](https://floridainnovation.org/) released their [new handbook](https://floridainnovation.org/2025/02/26/fci-handbook/), detailing what FCI is, their projects, and more.
 - [Open Sacramento](https://opensac.org/) celebrates their new name with a new [website](https://opensac.org/).
 
 ### Spring Virtual Happy Hour
 
-Join the Alliance of Civic Technologists for a Spring Happy Hour where we'll commiserate and celebrate our wins during the start of 2025. This is an open meeting for the entire civic tech community. [You can register for the event here!](https://us06web.zoom.us/j/86008650432?pwd=J8NxxtsNcxMbwNBGS9yB25u2p7t3d5.1) 
+Join the Alliance of Civic Technologists for a Spring Happy Hour where we'll commiserate and celebrate our wins during the start of 2025. This is an open meeting for the entire civic tech community. [You can register for the event here!](https://us06web.zoom.us/meeting/register/zll6wcxAQQ6uJeBSaQb3mQ)
 
-### Network Events 
+### Network Events
 
-Here are some events happening in the network, in the next month! 
+Here are some events happening in the network, in the next month!
 
 - **03/06** - Open Austin’s [Design Community of Practice: Service Design at the City of Austin](https://www.eventbrite.com/e/design-community-of-practice-service-design-at-the-city-of-austin-tickets-1204081994659) 
 - **03/07** - FCI + UMich’s [Social Services Technology Community Research Showcase](https://docs.google.com/forms/d/e/1FAIpQLSdCfftJIl49EkDFBqS4u0tmwI4fUqUdKPDyq0yS6eo158MGNg/viewform) 
