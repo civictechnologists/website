@@ -10,6 +10,8 @@ content:
   bluesky: "https://civictechallies.bsky.social"
   mastodon: "https://mastodon.social/@allianceofcivictechnologists"
   linkedin: "https://www.linkedin.com/company/alliance-of-civic-technologists"
+  org_form: "https://docs.google.com/forms/d/e/1FAIpQLSe1Y4ht-9W-tXDMvnugLCHbs81YWP9N4AR1oPdtWpkAW98ZfQ/viewform?usp=sf_link"
+  new_org_form: "https://docs.google.com/forms/d/e/1FAIpQLSdrrgzKSE21gWHR2zQChgEk_0qeaRoGmMqigg7bDkSOLgNLLQ/viewform?usp=sf_link"
 
 timezone: "America/New_York"
 
