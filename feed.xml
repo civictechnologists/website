@@ -5,9 +5,123 @@
     <description>ACT is a decentralized network of civic tech volunteer organizations.</description>
     <link>https://www.civictechnologists.org/</link>
     <atom:link href="https://www.civictechnologists.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 May 2025 13:29:41 -0400</pubDate>
-    <lastBuildDate>Fri, 02 May 2025 13:29:41 -0400</lastBuildDate>
+    <pubDate>Fri, 02 May 2025 13:34:59 -0400</pubDate>
+    <lastBuildDate>Fri, 02 May 2025 13:34:59 -0400</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      
+      <item>
+        <title>ACT Newsletter May 2025: New Stickers!, CityCamp Comeback, Civic Data Fellowship, FCI Project Process, Boundaries Map Migration, &amp; mRelief</title>
+        <description>&lt;h3 id=&quot;new-stickers&quot;&gt;New Stickers!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bsky.app/profile/civicwhitaker.com/post/3lnnuzmpoq22o&quot;&gt;Our union-made two inch hex stickers&lt;/a&gt; are finally here! Over the next week, member organizations that submitted designs, should expect to hear from us and will have their stickers shipped to them.&lt;/p&gt;
+
+&lt;p&gt;Those not a part of the Alliance of Civic Technologists or its member organizations, but still want a sticker, will have a chance, by as Open Austin says “keeping the lights on” and &lt;a href=&quot;https://hcb.hackclub.com/donations/start/alliance-of-civic-technologists&quot;&gt;donating&lt;/a&gt; between now and May 15th, (with your email included.) All profits from this donation drive will be used to help support our CityCamp initiative in the fall.&lt;/p&gt;
+
+&lt;h3 id=&quot;citycamp-comeback&quot;&gt;CityCamp Comeback&lt;/h3&gt;
+
+&lt;p&gt;For those that don’t remember or know, &lt;a href=&quot;https://citycamp.com/&quot;&gt;CityCamp&lt;/a&gt; is a global movement of community-focused events that foster civic collaboration and innovation. The &lt;a href=&quot;http://barcamp.org/w/page/25504543/CityCamp-Original&quot;&gt;first CityCamp&lt;/a&gt; was held January 2010, in Chicago, Illinois. It was then established as an &lt;a href=&quot;https://citycamp.com/news/how-citycamp-became-an-open-source-brand&quot;&gt;open source brand&lt;/a&gt; so that anyone could host events anywhere.&lt;/p&gt;
+
+&lt;p&gt;This year, the Alliance of Civic Technologists, with our member organizations, has been partnering with CityCamp, as an Organizing Partner, to host events across the country! Our series of &lt;a href=&quot;https://en.wikipedia.org/wiki/Unconference&quot;&gt;unconferences&lt;/a&gt; will follow the same blueprint as previously held CityCamps, casual community-focused events designed to foster participant-led civic sessions with local residents, elected officials, government staff, civic leaders, entrepreneurs, designers, developers, and journalists thoughtfully discussing or engaging in activities surrounding the themes of arts, civic engagement, civic technology, economics, education, environment, housing, human services, open government, safety, emergency management, health and transportation. Ending with World CityCamp Day 2025 on September 20th, 2025. To register for your city’s CityCamp, visit &lt;a href=&quot;http://citycamp.com&quot;&gt;citycamp.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;network-roundup&quot;&gt;Network Roundup&lt;/h3&gt;
+
+&lt;h4 id=&quot;civic-data-fellowship&quot;&gt;Civic Data Fellowship&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.open-austin.org/&quot;&gt;Open Austin&lt;/a&gt; is actively recruiting for their Civic Data Fellowship starting in June! The program pairs novice data analysts from underrepresented communities with mentors, culminating in professional presentations and data-driven projects used by local advocacy groups, and developing workforce-ready tech job candidates. If you would like to be a Fellow or this sounds like a good fit for someone you know, please submit the &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfaKTVZ35OkYpBHfzp3EWOQFEScDDUjfSzAfx4DzB18jHB9Ew/viewform?usp=preview&quot;&gt;interest form&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;fci-project-process&quot;&gt;FCI Project Process&lt;/h4&gt;
+
+&lt;p&gt;Did you know that &lt;a href=&quot;https://floridainnovation.org/&quot;&gt;Florida Community Innovation&lt;/a&gt; works with students and volunteers of all ages for a better Florida? That’s right! They’ve even detailed their current &lt;a href=&quot;https://floridainnovation.org/fcis-project-process/&quot;&gt;process&lt;/a&gt; on how they provide stipends and engaging work, while scoping and building sustainable, high-quality, community-driven projects. Make sure to check it out and send them any feedback at &lt;a href=&quot;mailto:info@floridainnovation.org&quot;&gt;info@floridainnovation.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;boundaries-map-migration&quot;&gt;Boundaries Map Migration&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://beta.nyc/&quot;&gt;BetaNYC&lt;/a&gt; recently migrated their &lt;a href=&quot;https://boundaries.beta.nyc/&quot;&gt;Boundaries Map&lt;/a&gt;, from Carto to &lt;a href=&quot;https://supabase.com/&quot;&gt;Supabase&lt;/a&gt;, and it’s now running twice as fast, enabling users to look at the political and administrative districts in New York City. Just in time to properly prepare for the primaries.&lt;/p&gt;
+
+&lt;h4 id=&quot;mrelief-highlight&quot;&gt;mRelief Highlight&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chihacknight.org/&quot;&gt;Chi Hack Night&lt;/a&gt; was featured in a &lt;a href=&quot;https://bsky.app/profile/baratunde.com/post/3ln3y37iwos2j&quot;&gt;video&lt;/a&gt; and &lt;a href=&quot;https://newsletter.baratunde.com/p/we-found-the-anti-doge-in-chicago&quot;&gt;newsletter&lt;/a&gt; by Baratunde Thurston showcasing their work with the Chicago community like &lt;a href=&quot;https://chihacknight.org/projects/2015/09/01/mrelief&quot;&gt;mRelief&lt;/a&gt;, a project making food stamps more accessible.&lt;/p&gt;
+
+&lt;h3 id=&quot;upcoming-events&quot;&gt;Upcoming Events&lt;/h3&gt;
+
+&lt;h4 id=&quot;act-delegates-meeting&quot;&gt;ACT Delegates Meeting&lt;/h4&gt;
+
+&lt;p&gt;Our next Delegates Meeting is scheduled for Thursday, May 15, 2025, at 6:00 PM PT / 9:00 PM ET. This event will focus on plans for the Alliance’ upcoming ACT Congress, the return of CityCamp, and other key initiatives. The Board and Delegates from our 18 member organizations have received personal invitations via email. If you’re a member of the public, you’re more than welcome to join, just use the &lt;a href=&quot;https://us06web.zoom.us/meeting/register/hyObULxlSuS4OpufW3bDhQ&quot;&gt;registration link&lt;/a&gt; to sign up.&lt;/p&gt;
+
+&lt;h4 id=&quot;act-congress&quot;&gt;ACT Congress&lt;/h4&gt;
+
+&lt;p&gt;Mark your calendars for the first-ever Alliance of Civic Technologists’s ACT Congress on Saturday, June 28, 2025! This virtual, half-day unconference will be open to the public and will feature dynamic, participant-driven sessions focused on the future of our community and mission. The day will kick off with a delegates-only breakfast session, where we’ll vote on next year’s budget and hold our inaugural board election. More details are coming soon, so stay tuned!&lt;/p&gt;
+
+&lt;h4 id=&quot;act-citycamp&quot;&gt;ACT CityCamp&lt;/h4&gt;
+
+&lt;p&gt;We’re excited to share that plans for the Alliance of Civic Technologists first CityCamp, an unconference that brings together technologists, nonprofit leaders, and local government stakeholders to explore how we can collaboratively improve our cities, have nearly been finalized! This fall, we’re planning a series of CityCamp events across the nation, leading up to World CityCamp Day on September 20, 2025. If you’re interested in helping shape this exciting initiative, please reach out to our Events Committee member Nicole via &lt;a href=&quot;mailto:nicole.dan@floridainnovation.org&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;network-events&quot;&gt;Network Events&lt;/h4&gt;
+
+&lt;p&gt;Here are some events happening in the network!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;05/02 - BetaNYC’s &lt;a href=&quot;https://beta.nyc/e250502/rsvp&quot;&gt;Open Data Week 2025 Spring Meetup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/05 - Code with the Carolina’s &lt;a href=&quot;https://www.meetup.com/codewiththecarolinas/events/307310067&quot;&gt;Civic Hacking for Affordable Housing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/05 - Open Austin’s &lt;a href=&quot;https://www.eventbrite.com/e/online-introduction-for-newcomers-tickets-1047289058767&quot;&gt;Online introduction (for newcomers)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/06 - Chi Hack Night’s &lt;a href=&quot;https://chihacknight.org/events/2025/05/06/icstars&quot;&gt;In-person and Online: i.c.stars&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/06 - Code for Boston’s &lt;a href=&quot;https://www.meetup.com/code-for-boston/events/306800024&quot;&gt;Virtual Weekly Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/06 - Code for Dayton’s &lt;a href=&quot;https://www.meetup.com/gem-city-tech/events/306540395&quot;&gt;Monthly Meetup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/06 - Open Austin’s &lt;a href=&quot;https://www.eventbrite.com/e/data-community-of-practice-may-tickets-1247760769049&quot;&gt;Data Community of Practice: May&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/06 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/307330121&quot;&gt;Tech Tuesday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/06 - OpenOakland’s &lt;a href=&quot;https://www.meetup.com/openoakland/events/307163032&quot;&gt;Civic Tech for the Community&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/07 - Code for BTV’s &lt;a href=&quot;https://www.meetup.com/codeforbtv/events/306203094&quot;&gt;Action Night (formerly Hack Night)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/07 - Code for Philly’s &lt;a href=&quot;https://www.meetup.com/code-for-philly/events/307452253&quot;&gt;Code for Philly 101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/07 - Open Sacramento’s &lt;a href=&quot;https://www.meetup.com/opensacorg/events/305768341&quot;&gt;Virtual: Community Action Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/07 - SF Civic Tech’s &lt;a href=&quot;https://www.meetup.com/sfcivictech/events/307348475&quot;&gt;Virtual Civic Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/12 - Civic Tech Atlanta’s &lt;a href=&quot;https://www.meetup.com/civictechatlanta/events/305490156/&quot;&gt;Civic Hack Night at Tech Square ATL (TSQATL) Social Club&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/13 - Chi Hack Night’s &lt;a href=&quot;https://chihacknight.org/events/2025/05/13/iatp&quot;&gt;Online: The Illinois Assistive Technology Program&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/13 - Code for Boston’s &lt;a href=&quot;https://www.meetup.com/code-for-boston/events/306765149&quot;&gt;In-Person Weekly Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/13 - Code for Philly’s &lt;a href=&quot;https://www.meetup.com/code-for-philly/events/306646820&quot;&gt;May Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/13 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/307449747&quot;&gt;Tech Tuesday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/14 - Code with the Carolina’s &lt;a href=&quot;https://www.meetup.com/codewiththecarolinas/events/306100808&quot;&gt;Monthly Welcome, Community, and Project Meeting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/14 - Open Sacramento’s &lt;a href=&quot;https://www.meetup.com/opensacorg/events/305768343&quot;&gt;Virtual: Community Action Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/14 - SF Civic Tech’s &lt;a href=&quot;https://www.meetup.com/sfcivictech/events/307328284&quot;&gt;Civic Tech in San Francisco&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/15 - Open Austin’s &lt;a href=&quot;https://www.eventbrite.com/e/design-community-of-practice-technology-for-non-profits-tickets-1204108142869&quot;&gt;Design Community of Practice: technology for non-profits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/19 - Code with the Carolina’s &lt;a href=&quot;https://www.meetup.com/codewiththecarolinas/events/307553266&quot;&gt;Civic Hacking for Affordable Housing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/20 - Chi Hack Night’s &lt;a href=&quot;https://chihacknight.org/events/2025/05/20/open-hack&quot;&gt;Online: Open Hack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/20 - Code for Boston’s &lt;a href=&quot;https://www.meetup.com/code-for-boston/events/hdjgbtyhchbbc&quot;&gt;Virtual Weekly Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/20 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/kmksjtyhchbbc&quot;&gt;Tech Tuesday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/21 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/znddrtyhchbcc&quot;&gt;Working Open Wednesday with CodeChops at Nexus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/21 - Open Sacramento’s &lt;a href=&quot;https://www.meetup.com/opensacorg/events/305768347&quot;&gt;Virtual: Community Action Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/21 - SF Civic Tech’s &lt;a href=&quot;https://www.meetup.com/sfcivictech/events/fwgrltyhchbcc&quot;&gt;Virtual Civic Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/27 - Code for Boston’s &lt;a href=&quot;https://www.meetup.com/code-for-boston/events/306765159&quot;&gt;In-Person Weekly Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/27 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/kmksjtyhchbkc&quot;&gt;Tech Tuesday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/28 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/znddrtyhchblc&quot;&gt;Working Open Wednesday with CodeChops at Nexus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;05/28 - SF Civic Tech’s &lt;a href=&quot;https://www.meetup.com/sfcivictech/events/fwgrltyhchblc&quot;&gt;Virtual Civic Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/02 - Code with the Carolina’s &lt;a href=&quot;https://www.meetup.com/codewiththecarolinas/events/cbzmptyhcjbdb&quot;&gt;Civic Hacking for Affordable Housing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/03 - Code for Boston’s &lt;a href=&quot;https://www.meetup.com/code-for-boston/events/hdjgbtyhcjbfb&quot;&gt;Virtual Weekly Hack Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/03 - Code for Dayton’s &lt;a href=&quot;https://www.meetup.com/gem-city-tech/events/306540401&quot;&gt;Monthly Meetup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/03 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/kmksjtyhcjbfb&quot;&gt;Tech Tuesday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/04 - Code for Philly’s &lt;a href=&quot;https://www.meetup.com/code-for-philly/events/307452308&quot;&gt;Code for Philly 101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/04 - Open Eugene’s &lt;a href=&quot;https://www.meetup.com/OpenEugene-EugeneTech/events/znddrtyhcjbgb&quot;&gt;Working Open Wednesday with CodeChops at Nexus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/04 - Open Sacramento’s &lt;a href=&quot;https://www.meetup.com/opensacorg/events/305768348&quot;&gt;Virtual: Community Action Night&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;06/04 - SF Civic Tech’s &lt;a href=&quot;https://www.meetup.com/sfcivictech/events/fwgrltyhcjbgb&quot;&gt;Virtual Civic Hack Night&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;beyond-act&quot;&gt;Beyond ACT&lt;/h4&gt;
+
+&lt;p&gt;Events from groups that aren’t officially a part of the Alliance of Civic Technologists network.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TBD - &lt;a href=&quot;https://horse-pail-acf.notion.site/NYC-Tech-Policy-Meetups-1a44bbba74ee80e4b7ecfe04a4631c18&quot;&gt;NYC Tech Policy Meetups&lt;/a&gt;’ In-Person &lt;a href=&quot;https://calendar.google.com/calendar/u/0/event?eid=NDJpMm0xMzZlOTZ0MmI0bzgwY3VqajJ1MWcgNTg0MTIzMTg1NTY5NmYyMjI5MzAyYTYzYzlhYTM1M2MyOWNjYzA2OTFiMzA3Y2VhYjc2MjZiOGIxZGUxMTQ5M0Bn&quot;&gt;NYC Coffee &amp;amp; Tech Policy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;stay-in-touch&quot;&gt;Stay in Touch&lt;/h1&gt;
+
+&lt;p&gt;Interested in chatting with the community, in real time? Join our public &lt;a href=&quot;https://discord.gg/kFsUUfsra6&quot;&gt;Discord server&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at &lt;a href=&quot;mailto:hello@civictechnologists.org&quot;&gt;hello@civictechnologists.org&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 May 2025 03:00:00 -0400</pubDate>
+        <link>https://www.civictechnologists.org/2025/05/may-2025-newsletter</link>
+        <guid isPermaLink="true">https://www.civictechnologists.org/2025/05/may-2025-newsletter</guid>
+      </item>
     
       
       <item>
@@ -563,23 +677,6 @@ On behalf of the Board&lt;/p&gt;
         <pubDate>Thu, 20 Jul 2023 00:00:00 -0400</pubDate>
         <link>https://www.civictechnologists.org/2023/07/july-act-newsletter</link>
         <guid isPermaLink="true">https://www.civictechnologists.org/2023/07/july-act-newsletter</guid>
-      </item>
-    
-      
-      <item>
-        <title>ACT June Social Hour</title>
-        <description>&lt;p&gt;Happy Friday!  The Alliance of Civic Technologists would like to invite you to a virtual social hour on June 29th at 8:30 PM EST / 5:30 PM to celebrate our filing as a 501c3!&lt;/p&gt;
-
-&lt;p&gt;This is our first step in becoming a fully-fledged non-profit. We’ll be filing in Illinois on Thursday and we’ll work with delegates from member organizations across the county to write our bylaws and continue the work supporting the civic technology volunteer network.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://us06web.zoom.us/meeting/register/tZUoduutrj0pHNGBZ3zoYJwGE21n8AvtlRoo&quot;&gt;You can register for the social hour here!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks so much for all you do,&lt;br /&gt;
-Christopher, Jill, and Harlan&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Jun 2023 00:00:00 -0400</pubDate>
-        <link>https://www.civictechnologists.org/2023/06/act-june-social-hour</link>
-        <guid isPermaLink="true">https://www.civictechnologists.org/2023/06/act-june-social-hour</guid>
       </item>
     
   </channel>
