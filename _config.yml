@@ -28,6 +28,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - DOCS/
 
 permalink: "/:year/:month/:title"
 
