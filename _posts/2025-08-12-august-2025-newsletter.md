@@ -4,23 +4,23 @@ date: 2025-08-12 0:00:00 -0700
 ---
 ### Director’s Update
 
-With the passage of the One Big Bill, the social safety net in our communities are facing dramatic cuts as the effects of the bill become law.  The Congressional Budget Office estimates that nearly 16 million people will lose access to Medicaid. The Urban Institute estimates that 22.3 million families would lose some of all of their food assistance. In addition, the Executive Order signed in late July is set to undermine state and local efforts to address homelessness.  
-  
-These developments are alarming and should be viewed as a call to action. Member organizations across the country were already at work to try to mitigate harm and boost community non-profits that have been in the trenches working on these difficult issues. 
+With the passage of the One Big Bill, the social safety net in our communities are facing dramatic cuts as the effects of the bill become law.  The Congressional Budget Office estimates that nearly 16 million people will lose access to Medicaid. The Urban Institute estimates that 22.3 million families would lose some of all of their food assistance. In addition, the Executive Order signed in late July is set to undermine state and local efforts to address homelessness.
 
-Open Source San Jose is currently actively working on Tally Up - a small web based application for tallying the meals handed out to children in need in partnership with the California Department of Education. Civic Tech Atlanta provided data support services to Sanctuary Food Pantry. Code for Philly is working on Phlask, a map of food, water, bathrooms, and foraging. 
+These developments are alarming and should be viewed as a call to action. Member organizations across the country were already at work to try to mitigate harm and boost community non-profits that have been in the trenches working on these difficult issues.
 
-And the CityCamp events this fall will provide additional opportunities for us as civic technologists to find ways we can pitch in to help. CityCamps are unconference events that will bring together city officials, technologists, and community non-profit leaders to ideate on ways we can work together to reduce harm in our communities. ACT is an organizing partner for CityCamp and if you’re interested in holding one in your city please reach out! 
+Open Source San Jose is currently actively working on Tally Up - a small web based application for tallying the meals handed out to children in need in partnership with the California Department of Education. Civic Tech Atlanta provided data support services to Sanctuary Food Pantry. Code for Philly is working on Phlask, a map of food, water, bathrooms, and foraging.
+
+And the CityCamp events this fall will provide additional opportunities for us as civic technologists to find ways we can pitch in to help. CityCamps are unconference events that will bring together city officials, technologists, and community non-profit leaders to ideate on ways we can work together to reduce harm in our communities. ACT is an organizing partner for CityCamp and if you’re interested in holding one in your city please reach out!
 
 ### Open Source San José
 
-We’re excited to welcome [Open Source San José (OSSJ)](https://opensourcesanjose.org/) as the newest member of the Alliance of Civic Technologists! This collective is uniting volunteer coders, designers, researchers, community members & more in solving local issues for the San José area of California. Their work in harnessing open source tools and community-driven innovation to make local government more transparent, inclusive, and responsive aligns seamlessly with ACT’s mission to support local organizations building better public services through tech and design. We’re thrilled to officially be their partner and included on their journey to creating more equitable civic solutions for San José. 
+We’re excited to welcome [Open Source San José (OSSJ)](https://opensourcesanjose.org/) as the newest member of the Alliance of Civic Technologists! This collective is uniting volunteer coders, designers, researchers, community members & more in solving local issues for the San José area of California. Their work in harnessing open source tools and community-driven innovation to make local government more transparent, inclusive, and responsive aligns seamlessly with ACT’s mission to support local organizations building better public services through tech and design. We’re thrilled to officially be their partner and included on their journey to creating more equitable civic solutions for San José.
 
 ### Civic Spark
 
 Part conference, part unconference, [Civic Spark](https://civic-spark.com/), happening in-person from August 16-17, brings together civic technologists, organizers, and community builders from all across North America to share what’s working, name what’s not, and ignite action for a more equitable public future. [Join them](https://lu.ma/civic-spark) for two days of connection, collaboration, and candid conversations to build what’s next, together! Learn more & register at: [civic-spark.com](https://civic-spark.com/)
 
-While at Civic Spark make sure to stop by and say hi to our member [Code for Boston](https://www.codeforboston.org/), they will be presenting at the conference. You can also check out their work ahead of time at [codeforboston.org/projects](http://codeforboston.org/projects). Our Executive Director Christopher Whitaker will also be there as part of a panel discussion on regional cooperation in civic tech. 
+While at Civic Spark make sure to stop by and say hi to our member [Code for Boston](https://www.codeforboston.org/), they will be presenting at the conference. You can also check out their work ahead of time at [codeforboston.org/projects](http://codeforboston.org/projects). Our Executive Director Christopher Whitaker will also be there as part of a panel discussion on regional cooperation in civic tech.
 
 ### Network Roundup
 
@@ -45,7 +45,7 @@ ACT's Summer Delegates Meeting, [happening August 21st 2025](https://us06web.zoo
 
 Everyone interested in civic tech is welcome. Delegates are encouraged to attend. [All required to RSVP](https://us06web.zoom.us/meeting/register/uJiMnOV-THiu_Xenq4XmuA).
 
-#### Network Events 
+#### Network Events
 
 Events happening across the Alliance, for the next month, from August 12th to September 4th!
 
@@ -80,7 +80,7 @@ Events happening across the Alliance, for the next month, from August 12th to Se
 - 09/03 - SF Civic Tech’s [Virtual Civic Hack Night](https://www.meetup.com/sfcivictech/events/fwgrltyhcmbfb/)
 - 09/04 - Open Austin’s [Design Community of Practice: September](https://www.eventbrite.com/e/design-community-of-practice-september-tickets-1447533855729)
 
-#### Beyond ACT 
+#### Beyond ACT
 
 Events from groups that aren’t officially a part of the Alliance of Civic Technologists network.
 

@@ -9,19 +9,19 @@ We’re excited to announce that [BetaNYC](https://beta.nyc/) has reached an inc
 
 ### ACT & Member Stickers Coming Soon
 
-Great news! The Alliance of Civic Technologists (ACT) is placing an order for a set of stickers, and we want you to be a part of it. These stickers will be a fantastic way to show your support for civic tech and the amazing work our network is doing. If you represent an official ACT member, please reach out to Brianda Hernandez to discuss design updates and changes. You can contact them via [email](mailto:hernandezbrianda@gmail.com) or through the [ACT Discord server](https://discord.gg/EM6ywtMhkP). Be sure to get in touch by next week to have any requests considered or included. 
+Great news! The Alliance of Civic Technologists (ACT) is placing an order for a set of stickers, and we want you to be a part of it. These stickers will be a fantastic way to show your support for civic tech and the amazing work our network is doing. If you represent an official ACT member, please reach out to Brianda Hernandez to discuss design updates and changes. You can contact them via [email](mailto:hernandezbrianda@gmail.com) or through the [ACT Discord server](https://discord.gg/EM6ywtMhkP). Be sure to get in touch by next week to have any requests considered or included.
 
 ### Important Message from FCI
 
-We’re pleased to share an [important message](https://docs.google.com/document/d/1HLqacm1l0Ga59M_H7ROnlfi3yYrLHcZ1XvmdaTmV9nU/edit?usp=sharing) from Florida Community Innovation, who’s seeking support to meet some key project needs. Including a a request for LangChain mentors who know AI pipelines, API integration and website parsing for their resource mapping tool the Florida Community Resource Map (FRM), a tool built for social and community workers to find and manage information about local services like food banks, job resources, and housing support. 
+We’re pleased to share an [important message](https://docs.google.com/document/d/1HLqacm1l0Ga59M_H7ROnlfi3yYrLHcZ1XvmdaTmV9nU/edit?usp=sharing) from Florida Community Innovation, who’s seeking support to meet some key project needs. Including a a request for LangChain mentors who know AI pipelines, API integration and website parsing for their resource mapping tool the Florida Community Resource Map (FRM), a tool built for social and community workers to find and manage information about local services like food banks, job resources, and housing support.
 
-### Network Roundup 
+### Network Roundup
 
 Here are some quick notes about what’s been happening in the network!
 
 - [SF Civic Tech](https://www.sfcivictech.org/) is developing the SafeHome project, which involves creating a web dashboard to assess earthquake risks for specific addresses in San Francisco. They are nearing the release of the Alpha version and are [seeking volunteer front-end developers](https://www.volunteermatch.org/search/opp3900122.jsp) to assist in building and enhancing the website.
-- [Florida Community Innovation](https://floridainnovation.org/) is helping one of their volunteers, [Anna Lanzino](https://www.linkedin.com/in/annalanzino/), a UC Berkeley researcher graduate and bringing Miami's history to life by offering interactive, online biographies of individuals buried at the Miami City Cemetery, through the [GoBituary](https://www.gobituary.app/) project. 
-- Code for Dayton is looking to refresh a few of their projects including their [Friends of the Florence Nightingale Museum website](https://www.friendsoffnm.org/) and a [tool for monitoring demolition permits](https://github.com/codefordayton/demolition_checker) for the city of Dayton in support of [Preservation Dayton](https://www.preservationdayton.com/). 
+- [Florida Community Innovation](https://floridainnovation.org/) is helping one of their volunteers, [Anna Lanzino](https://www.linkedin.com/in/annalanzino/), a UC Berkeley researcher graduate and bringing Miami's history to life by offering interactive, online biographies of individuals buried at the Miami City Cemetery, through the [GoBituary](https://www.gobituary.app/) project.
+- Code for Dayton is looking to refresh a few of their projects including their [Friends of the Florence Nightingale Museum website](https://www.friendsoffnm.org/) and a [tool for monitoring demolition permits](https://github.com/codefordayton/demolition_checker) for the city of Dayton in support of [Preservation Dayton](https://www.preservationdayton.com/).
 
 ### Upcoming Events
 
@@ -29,7 +29,7 @@ Here are some quick notes about what’s been happening in the network!
 
 We’re excited to invite you to our next town hall, happening Thursday, April 17, 2025, at 6:00 PM PT / 9:00 PM ET! This event will be a fantastic opportunity to discuss the future of civic technology, share your ideas, and build relationships with like-minded individuals looking to drive positive change. Don’t miss out on this chance to connect, learn, and contribute to the future of our communities. Use our [Zoom registration link](https://us06web.zoom.us/meeting/register/1A4KkQEDRfOkKbt-43YRZg) and mark your calendars—we can’t wait to see you there!
 
-#### Network Events 
+#### Network Events
 
 Here are some events happening in the network!
 
@@ -57,9 +57,9 @@ Here are some events happening in the network!
 - 04/30 - Open Sacramento’s [Virtual: Community Action Night](https://www.meetup.com/opensacorg/events/305768338/)
 - 04/30 - SF Civic Tech’s [Virtual Civic Hack Night](https://www.meetup.com/sfcivictech/events/fwgrltyhcgbnc/)
 
-#### Beyond ACT 
+#### Beyond ACT
 
-Events from groups that aren’t officially a part of the Alliance of Civic Technologists network. 
+Events from groups that aren’t officially a part of the Alliance of Civic Technologists network.
 
 - 04/25 - [NYC Tech Policy Meetups](https://horse-pail-acf.notion.site/NYC-Tech-Policy-Meetups-1a44bbba74ee80e4b7ecfe04a4631c18)’ In-Person [NYC Coffee & Tech Policy](https://calendar.google.com/calendar/u/0/event?eid=NDJpMm0xMzZlOTZ0MmI0bzgwY3VqajJ1MWcgNTg0MTIzMTg1NTY5NmYyMjI5MzAyYTYzYzlhYTM1M2MyOWNjYzA2OTFiMzA3Y2VhYjc2MjZiOGIxZGUxMTQ5M0Bn)
 
