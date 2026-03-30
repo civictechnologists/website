@@ -7,7 +7,7 @@ date: 2025-07-03 0:00:00 -0700
 
 I want to give a big thank you to everyone who participated in our first ACT Congress. The joy of these unconference events is that you never quite know where the conversations are going to go. I appreciate people’s willingness to take on hard topics and ideate on how we can make this community and our country better.
 
-The next big event on our calendar will be CityCamp starting in the fall and culminating in World CityCamp Day on September 20th.  CityCamp is a global movement of community-focused events that foster civic collaboration and innovation. These events bring people together to improve their communities. ACT is an organizing partner with CityCamp with Nicole Dan from Florida Community Innovation leading efforts on our side.
+The next big event on our calendar will be CityCamp starting in the fall and culminating in World CityCamp Day on September 20th.  CityCamp is a global movement of community-focused events that foster civic collaboration and innovation. These events bring people together to improve their communities. ACT is an organizing partner with CityCamp with Nicole Dan from Florida Community Innovation leading efforts on our side.
 
 With the passage of the One Big Bill, we’re looking at drastic cuts to the social safety net including food assistance, Medicaid, and healthcare. Community organizations and local governments will be on the front lines working to stem the damage. They’ll need support.
 
@@ -18,7 +18,7 @@ CityCamp will provide us an opportunity to bring local government officials, tec
 ACT is pleased to announce the results of our first Board Election! This election expanded our board from three to five. Our new ACT board is:
 
 - Harlan Weber, Code for Boston
-- Noel Hidalgo, BetaNYC 
+- Noel Hidalgo, BetaNYC
 - Nicole Dan, Florida Community Innovation
 - Brianda Hernandez, Open Sacramento
 - Aslan French, Open Austin
@@ -27,7 +27,7 @@ ACT is pleased to announce the results of our first Board Election! This electio
 
 [Civic Tech DC](https://www.civictechdc.org/) has joined the Alliance of Civic Technologists as our 18th member! Founded in 2012, Civic Tech DC is a non-partisan, non-political group of volunteer civic hackers working together to solve local issues and help people engage with the city.
 
-### Network Roundup 
+### Network Roundup
 
 Here are some quick notes about what’s been happening in the network!
 
@@ -55,7 +55,7 @@ Curious about how civic tech is making a difference in Florida communities? Join
 
 What’s next for civic tech and for ACT? Let’s figure it out together!
 
-Join us on [Thursday, July 17th](https://us06web.zoom.us/j/89050310180?pwd=9T6wfujl6fkYzX1GbI8VzPztgTz2sP.1)  for our ACT Summer Town Hall, a relaxed and collaborative space for members old and new to shape the future of the Alliance of Civic Technologists. Whether you’ve been part of ACT since day one or you’re just getting started, this is your moment to speak up, connect, and co-create. We’ll share what’s working, surface what’s not, and spark ideas together, with real conversations and community-led energy.
+Join us on [Thursday, July 17th](https://us06web.zoom.us/j/89050310180?pwd=9T6wfujl6fkYzX1GbI8VzPztgTz2sP.1)  for our ACT Summer Town Hall, a relaxed and collaborative space for members old and new to shape the future of the Alliance of Civic Technologists. Whether you’ve been part of ACT since day one or you’re just getting started, this is your moment to speak up, connect, and co-create. We’ll share what’s working, surface what’s not, and spark ideas together, with real conversations and community-led energy.
 
 [RSVP now](https://us06web.zoom.us/j/89050310180?pwd=9T6wfujl6fkYzX1GbI8VzPztgTz2sP.1) to be part of the conversation and help steer where we go next. Together, let’s make this summer count.
 
@@ -63,7 +63,7 @@ Join us on [Thursday, July 17th](https://us06web.zoom.us/j/89050310180?pwd=9T6wf
 
 We’re thrilled to announce that plans for the Alliance of Civic Technologists’ first CityCamp are nearly complete! [CityCamp](https://citycamp.com/) is an “[unconference](https://en.wikipedia.org/wiki/Unconference)” designed to bring together technologists, nonprofit leaders, and local government stakeholders to collaborate on innovative ways to improve our cities. This fall, we’ll be hosting a series of CityCamp events across the country, leading up to World CityCamp Day on September 20, 2025. If you’d like to be a part of shaping this exciting initiative, please contact Nicole from our Events Committee by [email](mailto:nicole.dan@floridainnovation.org).
 
-#### Network Events 
+#### Network Events
 
 Some events happening in the Alliance of Civic Technologists network across the United States, for the next month, from *July 10th* to *August 7th*!
 
@@ -96,9 +96,9 @@ Some events happening in the Alliance of Civic Technologists network across the 
 - 08/06 - Open Sacramento’s [Virtual: Community Action Night](https://www.meetup.com/opensacorg/events/305768372)
 - 08/06 - SF Civic Tech’s [Virtual Civic Hack Night](https://www.meetup.com/sfcivictech/events/fwgrltyhclbjb)
 
-#### Beyond ACT 
+#### Beyond ACT
 
-Events from groups that aren’t officially a part of the Alliance of Civic Technologists network. 
+Events from groups that aren’t officially a part of the Alliance of Civic Technologists network.
 
 - TBD - [NYC Tech Policy Meetups](https://horse-pail-acf.notion.site/NYC-Tech-Policy-Meetups-1a44bbba74ee80e4b7ecfe04a4631c18)’ In-Person [NYC Coffee & Tech Policy](https://calendar.google.com/calendar/u/0/event?eid=NDJpMm0xMzZlOTZ0MmI0bzgwY3VqajJ1MWcgNTg0MTIzMTg1NTY5NmYyMjI5MzAyYTYzYzlhYTM1M2MyOWNjYzA2OTFiMzA3Y2VhYjc2MjZiOGIxZGUxMTQ5M0Bn)
 - 08/03 - [Developing the Doughnut Economics EcoCivic Game](https://lu.ma/3x0h11yw)

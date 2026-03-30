@@ -26,7 +26,7 @@ In recent months, student interns and the developer team at [Florida Community I
 
 ### ACT reaches twenty members
 
-ACT continues to grow, with three more members signing on and bringing our total number of members to twenty. We were recently joined by [Code for Atlanta](https://www.codeforatlanta.org/), [Code for Hawaii](https://www.meetup.com/code-for-hawaii/) and [OpenSTL](https://openstl.org/) (St Louis). 
+ACT continues to grow, with three more members signing on and bringing our total number of members to twenty. We were recently joined by [Code for Atlanta](https://www.codeforatlanta.org/), [Code for Hawaii](https://www.meetup.com/code-for-hawaii/) and [OpenSTL](https://openstl.org/) (St Louis).
 
 _Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at {{ site.content.email_contact }}_
 
@@ -34,4 +34,4 @@ _Does your local civic tech organization have a story to tell? Want to be featur
 
 Thanks again for all of your support and everything you do.
 
-– ACT Comms Team 
+– ACT Comms Team
