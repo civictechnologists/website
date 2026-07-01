@@ -1,3 +1,18 @@
+// Generates CSS column-count utility classes:
+//
+//   Base (mobile-first, no media query):
+//     .text-col-1  .text-col-2  .text-col-3  .text-col-4
+//
+//   Responsive (wrapped in media-breakpoint-up):
+//     .text-col-sm-1  .text-col-sm-2  .text-col-sm-3  .text-col-sm-4
+//     .text-col-md-1  .text-col-md-2  .text-col-md-3  .text-col-md-4
+//     .text-col-lg-1  .text-col-lg-2  .text-col-lg-3  .text-col-lg-4
+//     .text-col-xl-1  .text-col-xl-2  .text-col-xl-3  .text-col-xl-4
+//     .text-col-xxl-1 .text-col-xxl-2 .text-col-xxl-3 .text-col-xxl-4
+//
+//   Example: <div class="text-col-2 text-col-md-3"> gives 2 columns on
+//   mobile and 3 columns from the md breakpoint up.
+
 // 1. Define the column map
 $text-columns: (
   1: 1,
