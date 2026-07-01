@@ -11,12 +11,14 @@ image: /assets/images/logo.png
   The Alliance of Civic Technologists (ACT) is a decentralized network of civic technology volunteer organizations, providing opportunities to connect, learn, and grow. Our purpose is to convene the network, enable them through shared learning and mutual support and to celebrate their wins - helping to amplify their local stories nationally.
 </div>
 
-<h2>Our Member Organizations</h2>
+<div class="mb-3">
+  <h2>Our Member Organizations</h2>
 
-<div class="row row-cols-2 row-cols-md-3">
-  {% for member in site.data.members %}
-    <div class="col"><a href="{{ member.url }}">{{ member.name }}</a></div>
-  {% endfor %}
+  <div class="text-col-2 text-col-md-3">
+    {% for member in site.data.members %}
+      <div><a href="{{ member.url }}">{{ member.name }}</a></div>
+    {% endfor %}
+  </div>
 </div>
 
 <div class="row mb-3">
