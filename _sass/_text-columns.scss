@@ -1,0 +1,30 @@
+// 1. Define the column map
+$text-columns: (
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4
+);
+
+// 2. Generate base (mobile-first) utility classes
+@each $key, $value in $text-columns {
+  .text-col-#{$key} {
+    column-count: $value;
+    // Uses Bootstrap's native gutter variable
+    column-gap: $grid-gutter-width;
+  }
+}
+
+// 3. Generate responsive utility classes
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $key, $value in $text-columns {
+      .text-col#{$infix}-#{$key} {
+        column-count: $value;
+        column-gap: $grid-gutter-width;
+      }
+    }
+  }
+}
