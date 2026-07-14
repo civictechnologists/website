@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+    <script src="/assets/javascripts/main.js"></script>
+
+    <link rel="icon" href="/assets/images/icon.png">
+    <link rel="alternate" type="application/rss+xml" title="Alliance of Civic Technologists RSS" href="/feed.xml">
+
+    <!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>CityCamp | Alliance of Civic Technologists</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="CityCamp" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ACT is a decentralized network of civic tech volunteer organizations." />
+<meta name="twitter:description" property="og:description" content="ACT is a decentralized network of civic tech volunteer organizations." />
+<link rel="canonical" href="https://www.civictechnologists.org/citycamp/" />
+<meta property="og:url" content="https://www.civictechnologists.org/citycamp/" />
+<meta property="og:site_name" content="Alliance of Civic Technologists" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="CityCamp" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"ACT is a decentralized network of civic tech volunteer organizations.","headline":"CityCamp","url":"https://www.civictechnologists.org/citycamp/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <link rel="stylesheet" href="/assets/vendor/leaflet/leaflet.min.css">
+    
+  </head>
+  <body class="page-citycamp">
+    <!-- Google Analytcs -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXFE368WBZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-FXFE368WBZ');
+    </script>
+
+    <!-- Piwik PRO Tag Manager -->
+    <script type="text/javascript">
+      (function(window, document, dataLayerName, id) {
+        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+        tags.async=!0,tags.src="https://civictechnologists.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+      })(window, document, 'dataLayer', 'f7eb6ed5-1703-4cab-85f2-5f4542030161');
+    </script>
+
+    <nav class="navbar bg-body-tertiary mb-3">
+  <div class="container container justify-content-center justify-content-sm-between">
+    <a class="navbar-brand h2 text-primary mb-0" href="/">
+      <img src="/assets/images/icon.png" alt="" width="30" height="30" class="d-inline-block align-text-bottom">
+      Alliance of Civic Technologists
+    </a>
+    <ul class="navbar-nav flex-row align-items-center">
+      <li class="nav-item mx-2">
+        <a class="nav-link" aria-current="page" href="/">Home</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" aria-current="page" href="/about">About</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" aria-current="page" href="/news">News</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" aria-current="page" href="/join">Join</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="btn btn-secondary btn-sm " aria-current="page" href="https://hcb.hackclub.com/donations/start/alliance-of-civic-technologists">Donate</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container ">
+  <header class="page-header">
+  <h1 class="page-title">CityCamp</h1>
+</header>
+
+<h2 class="h4 fw-normal mt-2 mb-3">Where civics meets community</h2>
+
+<p>CityCamp is a global movement of community-focused events that foster civic collaboration and innovation. These events bring people together to improve their communities. Everyone is welcome to join and share their ideas and skills to help make their city a better place.</p>
+
+<header class="page-header mt-5">
+  <h2 class="page-title" id="events">Upcoming CityCamps</h2>
+</header>
+
+<div class="card mb-3">
+    <div class="card-body">
+      <div class="text-danger fw-bold small text-uppercase">September 19, 2026</div>
+      <h5 class="card-title mb-1">New York City, NY</h5>
+      <div class="text-muted mb-1">CityCamp NYC 2026</div>
+      
+      <div class="small text-secondary mt-1">Organized by <a href="https://beta.nyc" target="_blank" rel="noopener">BetaNYC</a></div>
+      <a href="/citycamp/new-york-city" class="btn btn-primary btn-sm mt-3">Learn more &rarr;</a>
+    </div>
+  </div>
+
+<div class="border border-dark mt-3">
+  <div class="accordion accordion-flush" id="pastCityCampsAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="pastCityCampsHeading">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pastCityCampsCollapse" aria-expanded="false" aria-controls="pastCityCampsCollapse">
+          Past CityCamps
+        </button>
+      </h2>
+      <div id="pastCityCampsCollapse" class="accordion-collapse collapse" aria-labelledby="pastCityCampsHeading">
+        <div class="accordion-body">
+          <ul class="list-unstyled mb-0">
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/eugene">Eugene, OR</a>
+              <span class="text-muted small">October 25, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/portland">Portland, OR</a>
+              <span class="text-muted small">September 26, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/san-francisco">San Francisco, CA</a>
+              <span class="text-muted small">September 20, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/saint-paul">Saint Paul, MN</a>
+              <span class="text-muted small">September 20, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/oakland">Oakland, CA</a>
+              <span class="text-muted small">September 20, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/gainesville">Gainesville, FL</a>
+              <span class="text-muted small">September 20, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/atlanta">Atlanta, GA</a>
+              <span class="text-muted small">September 20, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/tulsa">Tulsa, OK</a>
+              <span class="text-muted small">September 19, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/new-york-city">New York City, NY</a>
+              <span class="text-muted small">September 6, 2025</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/savannah">Savannah, GA</a>
+              <span class="text-muted small">October 4, 2018</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/raleigh">Raleigh, NC</a>
+              <span class="text-muted small">September 28, 2017</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/san-francisco">San Francisco, CA</a>
+              <span class="text-muted small">January 10, 2015</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/sacramento">Sacramento, CA</a>
+              <span class="text-muted small">January 10, 2015</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/oakland">Oakland, CA</a>
+              <span class="text-muted small">January 10, 2015</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/chattanooga">Chattanooga, TN</a>
+              <span class="text-muted small">January 10, 2015</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/brighton">Brighton, United Kingdom</a>
+              <span class="text-muted small">March 21, 2014</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/madison">Madison, WI</a>
+              <span class="text-muted small">October 26, 2013</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/madison">Madison, WI</a>
+              <span class="text-muted small">June 16, 2012</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/honolulu">Honolulu, HI</a>
+              <span class="text-muted small">December 3, 2011</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/raleigh">Raleigh, NC</a>
+              <span class="text-muted small">June 3, 2011</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/london">London, United Kingdom</a>
+              <span class="text-muted small">October 8, 2010</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/washington-dc">Washington, DC</a>
+              <span class="text-muted small">June 12, 2010</span>
+            </li>
+            
+            <li class="d-flex justify-content-between py-1 border-bottom">
+              <a href="/citycamp/chicago">Chicago, IL</a>
+              <span class="text-muted small">January 23, 2010</span>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="page-header mt-5">
+  <h2 class="page-title" id="world-citycamp-day">World CityCamp Day</h2>
+</header>
+
+<p><strong>World CityCamp Day is held on the third Saturday of September.</strong> While some cities hold CityCamps throughout the year, World CityCamp Day brings together the global CityCamp community to celebrate their efforts. Some cities hold official CityCamps at this time, while others use it to plan for a future event.</p>
+
+<div class="row mt-5">
+  <div class="col-md-6">
+    <header class="page-header">
+      <h2 class="page-title" id="who">Who is CityCamp for</h2>
+    </header>
+    <p>CityCamp is for everyone in the community:</p>
+    <ul class="text-col-2 text-col-md-1">
+      <li>Residents</li>
+      <li>Elected officials</li>
+      <li>Government staff</li>
+      <li>Civic leaders</li>
+      <li>Entrepreneurs</li>
+      <li>Designers</li>
+      <li>Technologists</li>
+      <li>Journalists</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <header class="page-header">
+      <h2 class="page-title" id="themes">Themes</h2>
+    </header>
+    <p>CityCamp themes vary by event, but generally focus on these interest areas:</p>
+    <ul class="text-col-2">
+      <li>Arts</li>
+      <li>Civic engagement</li>
+      <li>Civic technology</li>
+      <li>Economics</li>
+      <li>Education</li>
+      <li>Environment</li>
+      <li>Housing</li>
+      <li>Human services</li>
+      <li>Open government</li>
+      <li>Safety</li>
+      <li>Emergency management</li>
+      <li>Health</li>
+      <li>Transportation</li>
+    </ul>
+  </div>
+</div>
+
+<header class="page-header mt-5">
+  <h2 class="page-title" id="cities">Participating Cities</h2>
+</header>
+
+<div id="citycamp-map" style="height: 450px;"></div>
+
+<script>
+(function() {
+  var citiesData = [
+    
+    
+    {"name": "Alberta", "latitude": 53.93327, "longitude": -116.5765, "slug": "alberta"},
+    
+    {"name": "Arvada", "latitude": 39.8028, "longitude": -105.0875, "slug": "arvada"},
+    
+    {"name": "Atlanta", "latitude": 33.74908765738871, "longitude": -84.39014409967115, "slug": "atlanta"},
+    
+    {"name": "Bizerte", "latitude": 37.2744, "longitude": 9.8739, "slug": "bizerte"},
+    
+    {"name": "Boulder", "latitude": 40.015, "longitude": -105.2705, "slug": "boulder"},
+    
+    {"name": "Brighton", "latitude": 50.8225, "longitude": -0.1372, "slug": "brighton"},
+    
+    {"name": "Buenos Aires", "latitude": -34.6037, "longitude": -58.3816, "slug": "buenos-aires"},
+    
+    {"name": "Castle Rock", "latitude": 39.3722, "longitude": -104.8561, "slug": "castle-rock"},
+    
+    {"name": "Chandler", "latitude": 33.3062, "longitude": -111.8413, "slug": "chandler"},
+    
+    {"name": "Chattanooga", "latitude": 35.0456, "longitude": -85.3097, "slug": "chattanooga"},
+    
+    {"name": "Chelmsford", "latitude": 51.7356, "longitude": 0.4685, "slug": "chelmsford"},
+    
+    {"name": "Chicago", "latitude": 41.8781, "longitude": -87.6298, "slug": "chicago"},
+    
+    {"name": "Coventry", "latitude": 52.4068, "longitude": -1.5197, "slug": "coventry"},
+    
+    {"name": "Denver", "latitude": 39.7392, "longitude": -104.9903, "slug": "denver"},
+    
+    {"name": "Edmonton", "latitude": 53.5461, "longitude": -113.4938, "slug": "edmonton"},
+    
+    {"name": "Eugene", "latitude": 44.0579471, "longitude": -123.1115053, "slug": "eugene"},
+    
+    {"name": "Gafsa", "latitude": 34.425, "longitude": 8.7842, "slug": "gafsa"},
+    
+    {"name": "Gainesville", "latitude": 29.653219, "longitude": -82.336097, "slug": "gainesville"},
+    
+    {"name": "Golden", "latitude": 39.7555, "longitude": -105.2211, "slug": "golden"},
+    
+    {"name": "Hampton Roads", "latitude": 36.8508, "longitude": -76.2859, "slug": "hampton-roads"},
+    
+    {"name": "Honolulu", "latitude": 21.3069, "longitude": -157.8583, "slug": "honolulu"},
+    
+    {"name": "Kansas City", "latitude": 39.0997, "longitude": -94.5786, "slug": "kansas-city"},
+    
+    {"name": "London", "latitude": 51.5074, "longitude": -0.1278, "slug": "london"},
+    
+    {"name": "Madison", "latitude": 43.0731, "longitude": -89.4012, "slug": "madison"},
+    
+    {"name": "Manchester", "latitude": 53.4808, "longitude": -2.2426, "slug": "manchester"},
+    
+    {"name": "Minneapolis", "latitude": 44.9778, "longitude": -93.265, "slug": "minneapolis"},
+    
+    {"name": "Monterrey", "latitude": 25.6866, "longitude": -100.3161, "slug": "monterrey"},
+    
+    {"name": "New York City", "latitude": 40.746429, "longitude": -73.944069, "slug": "new-york-city"},
+    
+    {"name": "Oakland", "latitude": 37.8044, "longitude": -122.2711, "slug": "oakland"},
+    
+    {"name": "Oklahoma City", "latitude": 35.4676, "longitude": -97.5164, "slug": "oklahoma-city"},
+    
+    {"name": "Perm", "latitude": 58.0105, "longitude": 56.2502, "slug": "perm"},
+    
+    {"name": "Phoenix", "latitude": 33.4484, "longitude": -112.074, "slug": "phoenix"},
+    
+    {"name": "Portland", "latitude": 45.5377596, "longitude": -122.6705893, "slug": "portland"},
+    
+    {"name": "Raleigh", "latitude": 35.7796, "longitude": -78.6382, "slug": "raleigh"},
+    
+    {"name": "Sacramento", "latitude": 38.5781, "longitude": -121.4944, "slug": "sacramento"},
+    
+    {"name": "Saint Paul", "latitude": 44.954002, "longitude": -93.120539, "slug": "saint-paul"},
+    
+    {"name": "San Francisco", "latitude": 37.7749, "longitude": -122.4194, "slug": "san-francisco"},
+    
+    {"name": "Santiago", "latitude": -33.4489, "longitude": -70.6693, "slug": "santiago"},
+    
+    {"name": "Savannah", "latitude": 32.0835, "longitude": -81.0998, "slug": "savannah"},
+    
+    {"name": "Sfax", "latitude": 34.739, "longitude": 10.76, "slug": "sfax"},
+    
+    {"name": "St. Petersburg", "latitude": 59.9343, "longitude": 30.3351, "slug": "st-petersburg"},
+    
+    {"name": "Tulsa", "latitude": 36.1556565, "longitude": -95.9955354, "slug": "tulsa"},
+    
+    {"name": "Tuscon", "latitude": 32.2226, "longitude": -110.9747, "slug": "tuscon"},
+    
+    {"name": "Ulyanovsk", "latitude": 54.3182, "longitude": 48.3838, "slug": "ulyanovsk"},
+    
+    {"name": "Washington", "latitude": 38.9072, "longitude": -77.0369, "slug": "washington-dc"}
+    
+  ];
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var map = L.map('citycamp-map').setView([30, 0], 2);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
+    }).addTo(map);
+
+    var svgIconUrl = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 41" width="25" height="41"><path d="M12.5 0C5.6 0 0 5.6 0 12.5 0 21.9 12.5 41 12.5 41S25 21.9 25 12.5C25 5.6 19.4 0 12.5 0z" fill="#052F42"/><circle cx="12.5" cy="12.5" r="4.5" fill="white" fill-opacity="0.6"/></svg>');
+    var icon = L.icon({
+      iconUrl: svgIconUrl,
+      shadowUrl: '/assets/vendor/leaflet/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
+    citiesData.forEach(function(city) {
+      L.marker([city.latitude, city.longitude], { icon: icon })
+        .addTo(map)
+        .bindPopup('<a href="/citycamp/' + city.slug + '">' + city.name + '</a>');
+    });
+  });
+})();
+</script>
+
+<div class="accordion accordion-flush mt-3 border border-dark">
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="citiesListHeading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#citiesListCollapse" aria-expanded="false" aria-controls="citiesListCollapse">
+        View all cities
+      </button>
+    </h3>
+    <div id="citiesListCollapse" class="accordion-collapse collapse" aria-labelledby="citiesListHeading">
+      <div class="accordion-body">
+        <div class="row">
+          <div class="col-6">
+            <h4 class="h6 text-uppercase text-muted mt-0 mb-1">United States</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/arvada">Arvada, CO</a></li>
+              
+              <li><a href="/citycamp/atlanta">Atlanta, GA</a></li>
+              
+              <li><a href="/citycamp/boulder">Boulder, CO</a></li>
+              
+              <li><a href="/citycamp/castle-rock">Castle Rock, CO</a></li>
+              
+              <li><a href="/citycamp/chandler">Chandler, AZ</a></li>
+              
+              <li><a href="/citycamp/chattanooga">Chattanooga, TN</a></li>
+              
+              <li><a href="/citycamp/chicago">Chicago, IL</a></li>
+              
+              <li><a href="/citycamp/denver">Denver, CO</a></li>
+              
+              <li><a href="/citycamp/eugene">Eugene, OR</a></li>
+              
+              <li><a href="/citycamp/gainesville">Gainesville, FL</a></li>
+              
+              <li><a href="/citycamp/golden">Golden, CO</a></li>
+              
+              <li><a href="/citycamp/hampton-roads">Hampton Roads, VA</a></li>
+              
+              <li><a href="/citycamp/honolulu">Honolulu, HI</a></li>
+              
+              <li><a href="/citycamp/kansas-city">Kansas City, MO</a></li>
+              
+              <li><a href="/citycamp/madison">Madison, WI</a></li>
+              
+              <li><a href="/citycamp/minneapolis">Minneapolis, MN</a></li>
+              
+              <li><a href="/citycamp/new-york-city">New York City, NY</a></li>
+              
+              <li><a href="/citycamp/oakland">Oakland, CA</a></li>
+              
+              <li><a href="/citycamp/oklahoma-city">Oklahoma City, OK</a></li>
+              
+              <li><a href="/citycamp/phoenix">Phoenix, AZ</a></li>
+              
+              <li><a href="/citycamp/portland">Portland, OR</a></li>
+              
+              <li><a href="/citycamp/raleigh">Raleigh, NC</a></li>
+              
+              <li><a href="/citycamp/sacramento">Sacramento, CA</a></li>
+              
+              <li><a href="/citycamp/saint-paul">Saint Paul, MN</a></li>
+              
+              <li><a href="/citycamp/san-francisco">San Francisco, CA</a></li>
+              
+              <li><a href="/citycamp/savannah">Savannah, GA</a></li>
+              
+              <li><a href="/citycamp/tulsa">Tulsa, OK</a></li>
+              
+              <li><a href="/citycamp/tuscon">Tuscon, AZ</a></li>
+              
+              <li><a href="/citycamp/washington-dc">Washington, DC</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-6">
+            
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-0">Argentina</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/buenos-aires">Buenos Aires</a></li>
+              
+            </ul>
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-3">Canada</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/alberta">Alberta</a></li>
+              
+              <li><a href="/citycamp/edmonton">Edmonton</a></li>
+              
+            </ul>
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-3">Chile</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/santiago">Santiago</a></li>
+              
+            </ul>
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-3">Mexico</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/monterrey">Monterrey</a></li>
+              
+            </ul>
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-3">Russia</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/perm">Perm</a></li>
+              
+              <li><a href="/citycamp/st-petersburg">St. Petersburg</a></li>
+              
+              <li><a href="/citycamp/ulyanovsk">Ulyanovsk</a></li>
+              
+            </ul>
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-3">Tunisia</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/bizerte">Bizerte</a></li>
+              
+              <li><a href="/citycamp/gafsa">Gafsa</a></li>
+              
+              <li><a href="/citycamp/sfax">Sfax</a></li>
+              
+            </ul>
+            
+            <h4 class="h6 text-uppercase text-muted mb-1 mt-3">United Kingdom</h4>
+            <ul class="list-unstyled mb-0">
+              
+              
+              <li><a href="/citycamp/brighton">Brighton</a></li>
+              
+              <li><a href="/citycamp/chelmsford">Chelmsford</a></li>
+              
+              <li><a href="/citycamp/coventry">Coventry</a></li>
+              
+              <li><a href="/citycamp/london">London</a></li>
+              
+              <li><a href="/citycamp/manchester">Manchester</a></li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="page-header mt-5">
+  <h2 class="page-title" id="history">History</h2>
+</header>
+
+<p>The first CityCamp was organized by Kevin Curry and Jen Pahlka and held January 23&ndash;24, 2010, in Chicago, Illinois. Afterwards, Kevin and Luke Fretwell developed it as an open source brand so that anyone could host events anywhere. Since then, there have been self-organized CityCamp events worldwide.</p>
+
+<header class="page-header mt-5">
+  <h2 class="page-title" id="format">Format</h2>
+</header>
+
+<p>CityCamp is an <strong>unconference</strong>, where the people attending help plan the schedule.</p>
+<ul>
+  <li>Participants create and organize the agenda, with help from facilitators.</li>
+  <li>Everyone takes part in the sessions instead of just listening.</li>
+  <li>This makes it easier to share ideas and take real action.</li>
+  <li>CityCamp focuses on local governments and community groups that affect our daily lives.</li>
+  <li>The goal is to build local teams that come up with smart ways to improve city life.</li>
+  <li>These ideas often involve design, better processes, and technology.</li>
+  <li>The purpose is to make communities more open, welcoming, and easy to use.</li>
+  <li>Though technology is a big part of CityCamp, it also includes other important topics.</li>
+</ul>
+
+</div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 mb-0 text-body-secondary justify-content-center justify-content-sm-end text-center text-sm-start">
+      <strong>Alliance of Civic Technologists</strong><br>
+      <small>ACT is a decentralized network of civic tech volunteer organizations.</small>
+    </div>
+
+    <div class="col-md-4 d-flex flex-fill align-items-center justify-content-center">
+      <img src="/assets/images/icon.png" width="60" alt="">
+    </div>
+
+    <ul class="nav col-md-4 justify-content-center justify-content-sm-end">
+      <li class="nav-item"><a href="/" class="nav-link px-0 pe-2 py-1 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="/news" class="nav-link px-2 py-1 text-body-secondary">News</a></li>
+      <li class="nav-item"><a href="https://hcb.hackclub.com/donations/start/alliance-of-civic-technologists" class="nav-link px-2 py-1 text-body-secondary">Donate</a></li>
+      <li class="nav-item"><a href="https://eepurl.com/ithxXU" class="nav-link px-2 py-1 text-body-secondary">Mailing List</a></li>
+      <li class="nav-item"><a href="/code-of-conduct" class="nav-link px-2 py-1 text-body-secondary">Code of Conduct</a></li>
+      <li class="nav-item"><a href="https://discord.gg/EM6ywtMhkP" class="nav-link px-2 py-1 text-body-secondary">Discord</a></li>
+      <li class="nav-item"><a href="mailto:hello@civictechnologists.org" class="nav-link px-2 py-1 text-body-secondary">Email</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/company/alliance-of-civic-technologists" class="nav-link px-2 py-1 text-body-secondary">LinkedIn</a></li>
+      <li class="nav-item"><a href="https://mastodon.social/@allianceofcivictechnologists" class="nav-link px-2 py-1 text-body-secondary">Mastodon</a></li>
+      <li class="nav-item"><a href="https://civictechallies.bsky.social" class="nav-link px-2 py-1 text-body-secondary">Bluesky</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+    
+    <script src="/assets/vendor/leaflet/leaflet.min.js"></script>
+    
+  </body>
+</html>
+

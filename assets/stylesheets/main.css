@@ -12134,6 +12134,15 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+.text-col-2 {
+  columns: 2;
+}
+
+@media (min-width: 768px) {
+  .text-col-md-1 {
+    columns: 1;
+  }
+}
 .btn-secondary {
   color: #fff;
 }
