@@ -6,4 +6,8 @@ gem "jekyll-seo-tag"
 
 group :test do
   gem "rspec"
+  gem "capybara"
+  gem "cuprite"
+  gem "rackup"
+  gem "webrick"
 end
