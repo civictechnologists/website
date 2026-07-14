@@ -32,6 +32,11 @@ exclude:
 
 permalink: "/:year/:month/:title"
 
+collections:
+  citycamp:
+    output: true
+    permalink: /citycamp/:name
+
 plugins:
   - jekyll-seo-tag
 
@@ -41,3 +46,8 @@ defaults:
       type: "posts"
     values:
       layout: post
+  - scope:
+      path: ""
+      type: "citycamp"
+    values:
+      layout: citycamp-city

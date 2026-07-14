@@ -1,0 +1,37 @@
+<div id="citycamp-map" style="height: 450px;"></div>
+
+<script>
+(function() {
+  var citiesData = [
+    {% assign geo_cities = site.citycamp | where_exp: "c", "c.latitude" %}
+    {% for city in geo_cities %}
+    {"name": {{ city.city | jsonify }}, "latitude": {{ city.latitude }}, "longitude": {{ city.longitude }}, "slug": {{ city.slug | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var map = L.map('citycamp-map').setView([30, 0], 2);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
+    }).addTo(map);
+
+    var svgIconUrl = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 41" width="25" height="41"><path d="M12.5 0C5.6 0 0 5.6 0 12.5 0 21.9 12.5 41 12.5 41S25 21.9 25 12.5C25 5.6 19.4 0 12.5 0z" fill="#052F42"/><circle cx="12.5" cy="12.5" r="4.5" fill="white" fill-opacity="0.6"/></svg>');
+    var icon = L.icon({
+      iconUrl: svgIconUrl,
+      shadowUrl: '{{ "/assets/vendor/leaflet/images/marker-shadow.png" | relative_url }}',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
+    citiesData.forEach(function(city) {
+      L.marker([city.latitude, city.longitude], { icon: icon })
+        .addTo(map)
+        .bindPopup('<a href="/citycamp/' + city.slug + '">' + city.name + '</a>');
+    });
+  });
+})();
+</script>

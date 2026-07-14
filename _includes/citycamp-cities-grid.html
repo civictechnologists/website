@@ -1,0 +1,18 @@
+{% assign all_events = site.data.citycamp.events | sort: "city" %}
+<div class="d-flex flex-wrap gap-2 my-3">
+  {% for event in all_events %}
+    {% if event.Status == "In progress" %}
+      {% if event.website %}
+      <a href="{{ event.website }}" target="_blank" rel="noopener" class="badge bg-danger text-decoration-none">{{ event.city }}{% if event.addressRegion %}, {{ event.addressRegion }}{% endif %}</a>
+      {% else %}
+      <span class="badge bg-danger">{{ event.city }}{% if event.addressRegion %}, {{ event.addressRegion }}{% endif %}</span>
+      {% endif %}
+    {% else %}
+      <span class="badge bg-secondary">{{ event.city }}{% if event.addressRegion %}, {{ event.addressRegion }}{% endif %}</span>
+    {% endif %}
+  {% endfor %}
+</div>
+<p class="small">
+  <span class="badge bg-danger">Red</span> upcoming &nbsp;
+  <span class="badge bg-secondary">Gray</span> past
+</p>

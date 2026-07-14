@@ -3,3 +3,7 @@ ruby File.read(File.join(File.dirname(__FILE__), '.ruby-version')).strip
 
 gem "jekyll"
 gem "jekyll-seo-tag"
+
+group :test do
+  gem "rspec"
+end
