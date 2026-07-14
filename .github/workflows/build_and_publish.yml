@@ -4,8 +4,22 @@ concurrency:
   group: ${{ github.workflow}}-${{ github.ref }}
   cancel-in-progress: true
 jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: "Ruby: Install Ruby"
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          rubygems: latest
+      - name: Run RSpec
+        run: bundle exec rspec
   build_and_publish:
     name: Build and Publish
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

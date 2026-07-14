@@ -1,0 +1,11 @@
+{% assign press_items = site.data.citycamp.press.docs | sort: "date" | reverse %}
+<ul class="list-group list-group-flush">
+  {% for item in press_items %}
+  <li class="list-group-item px-0">
+    <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    <div class="small text-muted">
+      {{ item.source }}{% if item.date %} &mdash; {{ item.date | date: "%B %-d, %Y" }}{% endif %}{% if item.type == "video" %} &mdash; <span class="badge bg-secondary">Video</span>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

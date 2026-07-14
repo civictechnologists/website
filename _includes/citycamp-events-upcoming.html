@@ -1,0 +1,27 @@
+{% assign upcoming_events = site.data.citycamp.events | where: "Status", "In progress" | sort: "date" %}
+{% if upcoming_events.size > 0 %}
+  {% for event in upcoming_events %}
+  <div class="card mb-3">
+    <div class="card-body">
+      <div class="text-danger fw-bold small text-uppercase">{{ event.date | date: "%B %-d, %Y" }}</div>
+      <h5 class="mb-1">{{ event.name }}</h5>
+      {% if event.venue %}
+      <div class="text-muted">{{ event.venue }}{% if event.addressLocality %}, {{ event.addressLocality }}{% endif %}{% if event.addressRegion %}, {{ event.addressRegion }}{% endif %}</div>
+      {% endif %}
+      {% if event.organizer %}
+      <div class="small text-secondary mt-1">Organized by {{ event.organizer }}</div>
+      {% endif %}
+      {% if event.price %}
+      <div class="small mt-1">{{ event.price }}</div>
+      {% endif %}
+      {% if event.website %}
+      <div class="mt-2">
+        <a href="{{ event.website }}" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Register &rarr;</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% else %}
+  <p>No upcoming events scheduled. <a href="https://citycamp.com/organize">Organize one in your city!</a></p>
+{% endif %}

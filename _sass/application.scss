@@ -26,6 +26,12 @@ $fa-font-path: "../fonts/fontawesome";
     margin-bottom: 0;
   }
 }
+.text-col-2 { columns: 2; }
+
+@include media-breakpoint-up(md) {
+  .text-col-md-1 { columns: 1; }
+}
+
 .btn-secondary {
   color: $white;
 

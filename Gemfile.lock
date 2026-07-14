@@ -8,6 +8,7 @@ GEM
     colorator (1.1.0)
     concurrent-ruby (1.3.7)
     csv (3.3.5)
+    diff-lcs (1.6.2)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -74,6 +75,19 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (4.7.0)
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.8)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.7)
     safe_yaml (1.0.5)
     sass-embedded (1.101.0)
       google-protobuf (~> 4.31)
@@ -96,6 +110,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-seo-tag
+  rspec
 
 RUBY VERSION
   ruby 4.0.2

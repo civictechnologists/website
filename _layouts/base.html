@@ -12,6 +12,9 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ "/feed.xml" | relative_url }}">
 
     {% seo %}
+    {% if page.leaflet %}
+    <link rel="stylesheet" href="{{ "/assets/vendor/leaflet/leaflet.min.css" | relative_url }}">
+    {% endif %}
   </head>
   <body class="page-{{ page.title | slugify }}">
     <!-- Google Analytcs -->
@@ -36,6 +39,9 @@
     </script>
 
     {{ content }}
+    {% if page.leaflet %}
+    <script src="{{ "/assets/vendor/leaflet/leaflet.min.js" | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>
 
