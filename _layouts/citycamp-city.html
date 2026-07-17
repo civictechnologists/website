@@ -13,12 +13,39 @@ layout: base
 <div class="container">
   <p><a href="/citycamp">&larr; All CityCamp cities</a></p>
 
-  {% if page.events.size > 0 %}
+  {% if page.upcoming_events.size > 0 %}
   <header class="page-header mt-4">
-    <h2 class="page-title">Future and past events</h2>
+    <h2 class="page-title">Upcoming events</h2>
   </header>
-  {% assign sorted_events = page.events | sort: "date" | reverse %}
-  {% for event in sorted_events %}
+  {% for event in page.upcoming_events %}
+  <div class="card mb-3">
+    <div class="card-body">
+      <div class="text-danger fw-bold small text-uppercase">{{ event.date | date: "%B %-d, %Y" }}</div>
+      <h5 class="mb-1">{{ event.name }}</h5>
+      {% if event.venue %}
+      <div class="text-muted">{{ event.venue }}{% if event.address %} &mdash; {{ event.address }}{% endif %}</div>
+      {% endif %}
+      {% if event.organizer %}
+      <div class="small text-secondary mt-1">Organized by {% if event.organizer_website %}<a href="{{ event.organizer_website }}" target="_blank" rel="noopener">{{ event.organizer }}</a>{% else %}{{ event.organizer }}{% endif %}</div>
+      {% endif %}
+      {% if event.website %}
+      <div class="mt-2">
+        <a href="{{ event.website }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Register &rarr;</a>
+      </div>
+      {% endif %}
+      {% if event.about %}
+      <div class="mt-2">{{ event.about | markdownify }}</div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if page.past_events.size > 0 %}
+  <header class="page-header mt-4">
+    <h2 class="page-title">Past events</h2>
+  </header>
+  {% for event in page.past_events %}
   <div class="card mb-3">
     <div class="card-body">
       <div class="text-danger fw-bold small text-uppercase">{{ event.date | date: "%B %-d, %Y" }}</div>

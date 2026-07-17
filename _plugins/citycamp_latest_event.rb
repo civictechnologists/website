@@ -15,10 +15,13 @@ Jekyll::Hooks.register :site, :pre_render do |site|
 
   past_events = []
   site.collections["citycamp"]&.docs&.each do |doc|
-    (doc.data["events"] || []).each do |event|
+    events = doc.data["events"] || []
+    upcoming, past = events.partition { |e| e["date"] && e["date"].strftime("%Y-%m-%d") >= today_str }
+    doc.data["upcoming_events"] = upcoming.sort_by { |e| e["date"].strftime("%Y-%m-%d") }
+    doc.data["past_events"] = past.sort_by { |e| e["date"].strftime("%Y-%m-%d") }.reverse
+
+    past.each do |event|
       next unless event["date"]
-      date_str = event["date"].strftime("%Y-%m-%d")
-      next if date_str >= today_str
 
       past_events << {
         "city"    => doc.data["city"],

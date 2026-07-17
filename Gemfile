@@ -6,6 +6,7 @@ gem "jekyll-seo-tag"
 
 group :test do
   gem "rspec"
+  gem "timecop"
   gem "capybara"
   gem "cuprite"
   gem "rackup"
