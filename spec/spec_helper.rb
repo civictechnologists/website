@@ -13,7 +13,69 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require "capybara/rspec"
+require "capybara/cuprite"
+require "fileutils"
+require "digest"
+
+ROOT_DIR = File.expand_path("..", __dir__)
+SITE_DIR = File.join(ROOT_DIR, "tmp/system_test_site")
+SITE_DIGEST_FILE = "#{SITE_DIR}.digest"
+
+# Directories, relative to ROOT_DIR, that never affect the built site and
+# so are excluded when deciding whether a rebuild is needed.
+SITE_SOURCE_EXCLUDE = %w[.git .github .jekyll-cache .sass-cache _site tmp spec vendor node_modules DOCS scripts .context].freeze
+
+# Fingerprints every file Jekyll might read (skipping the directories above),
+# so we can tell whether the previously built site is still up to date.
+def website_source_digest
+  files = Dir.glob(File.join(ROOT_DIR, "**/*"), File::FNM_DOTMATCH).select do |path|
+    next false if File.directory?(path)
+
+    relative_top = path.delete_prefix("#{ROOT_DIR}/").split("/").first
+    !SITE_SOURCE_EXCLUDE.include?(relative_top)
+  end.sort
+
+  Digest::SHA256.hexdigest(files.map { |f| "#{f}:#{File.mtime(f).to_f}:#{File.size(f)}" }.join)
+end
+
+# Serves the built Jekyll site, resolving directory paths (e.g. "/about/")
+# to their "index.html" the same way GitHub Pages does.
+class SiteRackApp
+  def initialize(root)
+    @root = root
+    @files = Rack::Files.new(root)
+  end
+
+  def call(env)
+    path = File.join(@root, env["PATH_INFO"])
+    env = env.merge("PATH_INFO" => File.join(env["PATH_INFO"], "index.html")) if File.directory?(path)
+    @files.call(env)
+  end
+end
+
+Capybara.javascript_driver = :cuprite
+Capybara.default_driver = :cuprite
+Capybara.server = :webrick
+Capybara.app = SiteRackApp.new(SITE_DIR)
+
 RSpec.configure do |config|
+  config.define_derived_metadata(file_path: %r{spec/system}) do |metadata|
+    metadata[:type] = :system
+  end
+
+  config.before(:suite) do
+    next unless config.files_to_run.grep(%r{spec/system}).any?
+
+    digest = website_source_digest
+    up_to_date = File.directory?(SITE_DIR) && File.exist?(SITE_DIGEST_FILE) && File.read(SITE_DIGEST_FILE) == digest
+    next if up_to_date
+
+    FileUtils.rm_rf(SITE_DIR)
+    system({ "JEKYLL_ENV" => "test" }, "bundle exec jekyll build --destination #{SITE_DIR}", exception: true)
+    File.write(SITE_DIGEST_FILE, digest)
+  end
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
