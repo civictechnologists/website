@@ -105,6 +105,6 @@ Events from groups that aren’t officially a part of the Alliance of Civic Tech
 
 # Stay in Touch
 
-Interested in chatting with the community, in real time? Join our public [Discord server](https://discord.gg/kFsUUfsra6)!
+Interested in chatting with the community, in real time? Join our public [Discord server]({{ site.content.discord_url }})!
 
 Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at [hello@civictechnologists.org](mailto:hello@civictechnologists.org).

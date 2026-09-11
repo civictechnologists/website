@@ -9,7 +9,7 @@ We’re excited to announce that [BetaNYC](https://beta.nyc/) has reached an inc
 
 ### ACT & Member Stickers Coming Soon
 
-Great news! The Alliance of Civic Technologists (ACT) is placing an order for a set of stickers, and we want you to be a part of it. These stickers will be a fantastic way to show your support for civic tech and the amazing work our network is doing. If you represent an official ACT member, please reach out to Brianda Hernandez to discuss design updates and changes. You can contact them via [email](mailto:hernandezbrianda@gmail.com) or through the [ACT Discord server](https://discord.gg/EM6ywtMhkP). Be sure to get in touch by next week to have any requests considered or included.
+Great news! The Alliance of Civic Technologists (ACT) is placing an order for a set of stickers, and we want you to be a part of it. These stickers will be a fantastic way to show your support for civic tech and the amazing work our network is doing. If you represent an official ACT member, please reach out to Brianda Hernandez to discuss design updates and changes. You can contact them via [email](mailto:hernandezbrianda@gmail.com) or through the [ACT Discord server]({{ site.content.discord_url }}). Be sure to get in touch by next week to have any requests considered or included.
 
 ### Important Message from FCI
 
@@ -65,6 +65,6 @@ Events from groups that aren’t officially a part of the Alliance of Civic Tech
 
 ### Stay in Touch
 
-Interested in chatting with the community in real time, join our public [Discord server](https://discord.gg/EM6ywtMhkP).
+Interested in chatting with the community in real time, join our public [Discord server]({{ site.content.discord_url }}).
 
 Does your local civic tech organization have a story to tell? Want to be featured in our next newsletter? Reach out to us at [hello@civictechnologists.org](mailto:hello@civictechnologists.org)
