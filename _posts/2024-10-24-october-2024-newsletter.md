@@ -33,4 +33,4 @@ ACT intends to conduct business in an open and transparent manner. As a good fir
 
 ### Join our Discord
 
-ACT maintains a Discord server where we facilitate conversations between volunteer civic technology leaders across the country. [Join us today\!](https://discord.gg/EM6ywtMhkP)
+ACT maintains a Discord server where we facilitate conversations between volunteer civic technology leaders across the country. [Join us today\!]({{ site.content.discord_url }})
