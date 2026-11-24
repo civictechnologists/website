@@ -57,7 +57,7 @@ end
 # Only allow requests to the local test server so third-party scripts
 # (e.g. Piwik analytics) can't leave pending connections that fail navigation.
 Capybara.register_driver(:cuprite) do |app|
-  Capybara::Cuprite::Driver.new(app, url_whitelist: [%r{\Ahttps?://(127\.0\.0\.1|localhost)(:\d+)?/}])
+  Capybara::Cuprite::Driver.new(app, process_timeout: 30, url_whitelist: [%r{\Ahttps?://(127\.0\.0\.1|localhost)(:\d+)?/}])
 end
 
 Capybara.javascript_driver = :cuprite
